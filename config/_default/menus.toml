@@ -1,0 +1,1556 @@
+[[32]]
+    name = "The Distribution: Create Powerful APIs with Ease"
+    identifier = "the-distribution-create-powerful-apis-with-ease"
+    pageRef = '/3.2/distribution'
+    weight = 1
+[[32]]
+    name = "Getting Started With API Platform: Create Your API and Your Jamstack Site"
+    identifier = "the-distribution-create-powerful-apis-with-ease-getting-started-with-api-platform-create-your-api-and-your-jamstack-site"
+    pageRef = '/3.2/distribution'
+    url = '/3.2/distribution'
+    weight = 1
+    parent = 'the-distribution-create-powerful-apis-with-ease'
+[[32]]
+    name = "Testing the API"
+    identifier = "the-distribution-create-powerful-apis-with-ease-testing-the-api"
+    pageRef = '/3.2/distribution/testing'
+    url = '/3.2/distribution/testing'
+    weight = 2
+    parent = 'the-distribution-create-powerful-apis-with-ease'
+[[32]]
+    name = "Debugging"
+    identifier = "the-distribution-create-powerful-apis-with-ease-debugging"
+    pageRef = '/3.2/distribution/debugging'
+    url = '/3.2/distribution/debugging'
+    weight = 3
+    parent = 'the-distribution-create-powerful-apis-with-ease'
+[[32]]
+    name = "Configuring the Caddy Web Server"
+    identifier = "the-distribution-create-powerful-apis-with-ease-configuring-the-caddy-web-server"
+    pageRef = '/3.2/distribution/caddy'
+    url = '/3.2/distribution/caddy'
+    weight = 4
+    parent = 'the-distribution-create-powerful-apis-with-ease'
+[[32]]
+    name = "Core"
+    identifier = "core"
+    pageRef = '/3.2/core'
+    weight = 2
+[[32]]
+    name = "The API Platform Core Library"
+    identifier = "core-the-api-platform-core-library"
+    pageRef = '/3.2/core'
+    url = '/3.2/core'
+    weight = 1
+    parent = 'core'
+[[32]]
+    name = "Getting started"
+    identifier = "core-getting-started"
+    pageRef = '/3.2/core/getting-started'
+    url = '/3.2/core/getting-started'
+    weight = 2
+    parent = 'core'
+[[32]]
+    name = "Upgrade Guide"
+    identifier = "core-upgrade-guide"
+    pageRef = '/3.2/core/upgrade-guide'
+    url = '/3.2/core/upgrade-guide'
+    weight = 3
+    parent = 'core'
+[[32]]
+    name = "General Design Considerations"
+    identifier = "core-general-design-considerations"
+    pageRef = '/3.2/core/design'
+    url = '/3.2/core/design'
+    weight = 4
+    parent = 'core'
+[[32]]
+    name = "Extending API Platform"
+    identifier = "core-extending-api-platform"
+    pageRef = '/3.2/core/extending'
+    url = '/3.2/core/extending'
+    weight = 5
+    parent = 'core'
+[[32]]
+    name = "Testing Utilities"
+    identifier = "core-testing-utilities"
+    pageRef = '/3.2/core/testing'
+    url = '/3.2/core/testing'
+    weight = 6
+    parent = 'core'
+[[32]]
+    name = "Operations"
+    identifier = "core-operations"
+    pageRef = '/3.2/core/operations'
+    url = '/3.2/core/operations'
+    weight = 7
+    parent = 'core'
+[[32]]
+    name = "GraphQL Support"
+    identifier = "core-graphql-support"
+    pageRef = '/3.2/core/graphql'
+    url = '/3.2/core/graphql'
+    weight = 8
+    parent = 'core'
+[[32]]
+    name = "State Providers"
+    identifier = "core-state-providers"
+    pageRef = '/3.2/core/state-providers'
+    url = '/3.2/core/state-providers'
+    weight = 9
+    parent = 'core'
+[[32]]
+    name = "State Processors"
+    identifier = "core-state-processors"
+    pageRef = '/3.2/core/state-processors'
+    url = '/3.2/core/state-processors'
+    weight = 10
+    parent = 'core'
+[[32]]
+    name = "Filters"
+    identifier = "core-filters"
+    pageRef = '/3.2/core/filters'
+    url = '/3.2/core/filters'
+    weight = 11
+    parent = 'core'
+[[32]]
+    name = "Subresources"
+    identifier = "core-subresources"
+    pageRef = '/3.2/core/subresources'
+    url = '/3.2/core/subresources'
+    weight = 12
+    parent = 'core'
+[[32]]
+    name = "The Serialization Process"
+    identifier = "core-the-serialization-process"
+    pageRef = '/3.2/core/serialization'
+    url = '/3.2/core/serialization'
+    weight = 13
+    parent = 'core'
+[[32]]
+    name = "Validation"
+    identifier = "core-validation"
+    pageRef = '/3.2/core/validation'
+    url = '/3.2/core/validation'
+    weight = 14
+    parent = 'core'
+[[32]]
+    name = "Security"
+    identifier = "core-security"
+    pageRef = '/3.2/core/security'
+    url = '/3.2/core/security'
+    weight = 15
+    parent = 'core'
+[[32]]
+    name = "Content Negotiation"
+    identifier = "core-content-negotiation"
+    pageRef = '/3.2/core/content-negotiation'
+    url = '/3.2/core/content-negotiation'
+    weight = 16
+    parent = 'core'
+[[32]]
+    name = "Pagination"
+    identifier = "core-pagination"
+    pageRef = '/3.2/core/pagination'
+    url = '/3.2/core/pagination'
+    weight = 17
+    parent = 'core'
+[[32]]
+    name = "Deprecating Resources and Properties (Alternative to Versioning)"
+    identifier = "core-deprecating-resources-and-properties-alternative-to-versioning"
+    pageRef = '/3.2/core/deprecations'
+    url = '/3.2/core/deprecations'
+    weight = 18
+    parent = 'core'
+[[32]]
+    name = "Overriding Default Order"
+    identifier = "core-overriding-default-order"
+    pageRef = '/3.2/core/default-order'
+    url = '/3.2/core/default-order'
+    weight = 19
+    parent = 'core'
+[[32]]
+    name = "Performance and Cache"
+    identifier = "core-performance-and-cache"
+    pageRef = '/3.2/core/performance'
+    url = '/3.2/core/performance'
+    weight = 20
+    parent = 'core'
+[[32]]
+    name = "Extensions"
+    identifier = "core-extensions"
+    pageRef = '/3.2/core/extensions'
+    url = '/3.2/core/extensions'
+    weight = 21
+    parent = 'core'
+[[32]]
+    name = "Symfony Messenger Integration: CQRS and Async Message Processing"
+    identifier = "core-symfony-messenger-integration-cqrs-and-async-message-processing"
+    pageRef = '/3.2/core/messenger'
+    url = '/3.2/core/messenger'
+    weight = 22
+    parent = 'core'
+[[32]]
+    name = "Using Data Transfer Objects (DTOs)"
+    identifier = "core-using-data-transfer-objects-dtos"
+    pageRef = '/3.2/core/dto'
+    url = '/3.2/core/dto'
+    weight = 23
+    parent = 'core'
+[[32]]
+    name = "OpenAPI Specification Support (formerly Swagger)"
+    identifier = "core-openapi-specification-support-formerly-swagger"
+    pageRef = '/3.2/core/openapi'
+    url = '/3.2/core/openapi'
+    weight = 24
+    parent = 'core'
+[[32]]
+    name = "JSON Schema Support"
+    identifier = "core-json-schema-support"
+    pageRef = '/3.2/core/json-schema'
+    url = '/3.2/core/json-schema'
+    weight = 25
+    parent = 'core'
+[[32]]
+    name = "Creating Async APIs using the Mercure Protocol"
+    identifier = "core-creating-async-apis-using-the-mercure-protocol"
+    pageRef = '/3.2/core/mercure'
+    url = '/3.2/core/mercure'
+    weight = 26
+    parent = 'core'
+[[32]]
+    name = "Pushing Related Resources Using HTTP/2"
+    identifier = "core-pushing-related-resources-using-http2"
+    pageRef = '/3.2/core/push-relations'
+    url = '/3.2/core/push-relations'
+    weight = 27
+    parent = 'core'
+[[32]]
+    name = "Errors Handling"
+    identifier = "core-errors-handling"
+    pageRef = '/3.2/core/errors'
+    url = '/3.2/core/errors'
+    weight = 28
+    parent = 'core'
+[[32]]
+    name = "Using External Vocabularies"
+    identifier = "core-using-external-vocabularies"
+    pageRef = '/3.2/core/external-vocabularies'
+    url = '/3.2/core/external-vocabularies'
+    weight = 29
+    parent = 'core'
+[[32]]
+    name = "Operation Path Naming"
+    identifier = "core-operation-path-naming"
+    pageRef = '/3.2/core/operation-path-naming'
+    url = '/3.2/core/operation-path-naming'
+    weight = 30
+    parent = 'core'
+[[32]]
+    name = "URL Generation Strategy"
+    identifier = "core-url-generation-strategy"
+    pageRef = '/3.2/core/url-generation-strategy'
+    url = '/3.2/core/url-generation-strategy'
+    weight = 31
+    parent = 'core'
+[[32]]
+    name = "Extending JSON-LD AND Hydra Contexts"
+    identifier = "core-extending-json-ld-and-hydra-contexts"
+    pageRef = '/3.2/core/extending-jsonld-context'
+    url = '/3.2/core/extending-jsonld-context'
+    weight = 32
+    parent = 'core'
+[[32]]
+    name = "Identifiers"
+    identifier = "core-identifiers"
+    pageRef = '/3.2/core/identifiers'
+    url = '/3.2/core/identifiers'
+    weight = 33
+    parent = 'core'
+[[32]]
+    name = "MongoDB Support"
+    identifier = "core-mongodb-support"
+    pageRef = '/3.2/core/mongodb'
+    url = '/3.2/core/mongodb'
+    weight = 34
+    parent = 'core'
+[[32]]
+    name = "Elasticsearch Support"
+    identifier = "core-elasticsearch-support"
+    pageRef = '/3.2/core/elasticsearch'
+    url = '/3.2/core/elasticsearch'
+    weight = 35
+    parent = 'core'
+[[32]]
+    name = "Creating Custom Operations and Controllers"
+    identifier = "core-creating-custom-operations-and-controllers"
+    pageRef = '/3.2/core/controllers'
+    url = '/3.2/core/controllers'
+    weight = 36
+    parent = 'core'
+[[32]]
+    name = "The Event System"
+    identifier = "core-the-event-system"
+    pageRef = '/3.2/core/events'
+    url = '/3.2/core/events'
+    weight = 37
+    parent = 'core'
+[[32]]
+    name = "Handling File Upload"
+    identifier = "core-handling-file-upload"
+    pageRef = '/3.2/core/file-upload'
+    url = '/3.2/core/file-upload'
+    weight = 38
+    parent = 'core'
+[[32]]
+    name = "JWT Authentication"
+    identifier = "core-jwt-authentication"
+    pageRef = '/3.2/core/jwt'
+    url = '/3.2/core/jwt'
+    weight = 39
+    parent = 'core'
+[[32]]
+    name = "User Entity"
+    identifier = "core-user-entity"
+    pageRef = '/3.2/core/user'
+    url = '/3.2/core/user'
+    weight = 40
+    parent = 'core'
+[[32]]
+    name = "Accept `application/x-www-form-urlencoded` Form Data"
+    identifier = "core-accept-applicationx-www-form-urlencoded-form-data"
+    pageRef = '/3.2/core/form-data'
+    url = '/3.2/core/form-data'
+    weight = 41
+    parent = 'core'
+[[32]]
+    name = "AngularJS Integration"
+    identifier = "core-angularjs-integration"
+    pageRef = '/3.2/core/angularjs-integration'
+    url = '/3.2/core/angularjs-integration'
+    weight = 42
+    parent = 'core'
+[[32]]
+    name = "FOSUserBundle Integration"
+    identifier = "core-fosuserbundle-integration"
+    pageRef = '/3.2/core/fosuser-bundle'
+    url = '/3.2/core/fosuser-bundle'
+    weight = 43
+    parent = 'core'
+[[32]]
+    name = "NelmioApiDocBundle Integration"
+    identifier = "core-nelmioapidocbundle-integration"
+    pageRef = '/3.2/core/nelmio-api-doc'
+    url = '/3.2/core/nelmio-api-doc'
+    weight = 44
+    parent = 'core'
+[[32]]
+    name = "Bootstraping the core library"
+    identifier = "core-bootstraping-the-core-library"
+    pageRef = '/3.2/core/bootstrap'
+    url = '/3.2/core/bootstrap'
+    weight = 45
+    parent = 'core'
+[[32]]
+    name = "Configuration"
+    identifier = "core-configuration"
+    pageRef = '/3.2/core/configuration'
+    url = '/3.2/core/configuration'
+    weight = 46
+    parent = 'core'
+[[32]]
+    name = "Migrate From FOSRestBundle"
+    identifier = "core-migrate-from-fosrestbundle"
+    pageRef = '/3.2/core/migrate-from-fosrestbundle'
+    url = '/3.2/core/migrate-from-fosrestbundle'
+    weight = 47
+    parent = 'core'
+[[32]]
+    name = "Schema Generator"
+    identifier = "schema-generator"
+    pageRef = '/3.2/schema-generator'
+    weight = 3
+[[32]]
+    name = "The Schema Generator"
+    identifier = "schema-generator-the-schema-generator"
+    pageRef = '/3.2/schema-generator'
+    url = '/3.2/schema-generator'
+    weight = 1
+    parent = 'schema-generator'
+[[32]]
+    name = "Getting Started"
+    identifier = "schema-generator-getting-started"
+    pageRef = '/3.2/schema-generator/getting-started'
+    url = '/3.2/schema-generator/getting-started'
+    weight = 2
+    parent = 'schema-generator'
+[[32]]
+    name = "Configuration"
+    identifier = "schema-generator-configuration"
+    pageRef = '/3.2/schema-generator/configuration'
+    url = '/3.2/schema-generator/configuration'
+    weight = 3
+    parent = 'schema-generator'
+[[32]]
+    name = "Admin"
+    identifier = "admin"
+    pageRef = '/3.2/admin'
+    weight = 4
+[[32]]
+    name = "The API Platform Admin"
+    identifier = "admin-the-api-platform-admin"
+    pageRef = '/3.2/admin'
+    url = '/3.2/admin'
+    weight = 1
+    parent = 'admin'
+[[32]]
+    name = "Getting Started"
+    identifier = "admin-getting-started"
+    pageRef = '/3.2/admin/getting-started'
+    url = '/3.2/admin/getting-started'
+    weight = 2
+    parent = 'admin'
+[[32]]
+    name = "Handling Relations"
+    identifier = "admin-handling-relations"
+    pageRef = '/3.2/admin/handling-relations'
+    url = '/3.2/admin/handling-relations'
+    weight = 3
+    parent = 'admin'
+[[32]]
+    name = "OpenAPI"
+    identifier = "admin-openapi"
+    pageRef = '/3.2/admin/openapi'
+    url = '/3.2/admin/openapi'
+    weight = 4
+    parent = 'admin'
+[[32]]
+    name = "Using the Schema.org Vocabulary"
+    identifier = "admin-using-the-schemaorg-vocabulary"
+    pageRef = '/3.2/admin/schema.org'
+    url = '/3.2/admin/schema.org'
+    weight = 5
+    parent = 'admin'
+[[32]]
+    name = "Validation"
+    identifier = "admin-validation"
+    pageRef = '/3.2/admin/validation'
+    url = '/3.2/admin/validation'
+    weight = 6
+    parent = 'admin'
+[[32]]
+    name = "Real-time Updates With Mercure"
+    identifier = "admin-real-time-updates-with-mercure"
+    pageRef = '/3.2/admin/real-time-mercure'
+    url = '/3.2/admin/real-time-mercure'
+    weight = 7
+    parent = 'admin'
+[[32]]
+    name = "Authentication Support"
+    identifier = "admin-authentication-support"
+    pageRef = '/3.2/admin/authentication-support'
+    url = '/3.2/admin/authentication-support'
+    weight = 8
+    parent = 'admin'
+[[32]]
+    name = "Handling File Upload"
+    identifier = "admin-handling-file-upload"
+    pageRef = '/3.2/admin/file-upload'
+    url = '/3.2/admin/file-upload'
+    weight = 9
+    parent = 'admin'
+[[32]]
+    name = "Performance"
+    identifier = "admin-performance"
+    pageRef = '/3.2/admin/performance'
+    url = '/3.2/admin/performance'
+    weight = 10
+    parent = 'admin'
+[[32]]
+    name = "Customizing the Admin"
+    identifier = "admin-customizing-the-admin"
+    pageRef = '/3.2/admin/customizing'
+    url = '/3.2/admin/customizing'
+    weight = 11
+    parent = 'admin'
+[[32]]
+    name = "Components"
+    identifier = "admin-components"
+    pageRef = '/3.2/admin/components'
+    url = '/3.2/admin/components'
+    weight = 12
+    parent = 'admin'
+[[32]]
+    name = "Create Client"
+    identifier = "create-client"
+    pageRef = '/3.2/create-client'
+    weight = 5
+[[32]]
+    name = "API Platform Create Client"
+    identifier = "create-client-api-platform-create-client"
+    pageRef = '/3.2/create-client'
+    url = '/3.2/create-client'
+    weight = 1
+    parent = 'create-client'
+[[32]]
+    name = "Next.js Generator"
+    identifier = "create-client-nextjs-generator"
+    pageRef = '/3.2/create-client/nextjs'
+    url = '/3.2/create-client/nextjs'
+    weight = 2
+    parent = 'create-client'
+[[32]]
+    name = "Nuxt Generator"
+    identifier = "create-client-nuxt-generator"
+    pageRef = '/3.2/create-client/nuxt'
+    url = '/3.2/create-client/nuxt'
+    weight = 3
+    parent = 'create-client'
+[[32]]
+    name = "Vuetify Generator"
+    identifier = "create-client-vuetify-generator"
+    pageRef = '/3.2/create-client/vuetify'
+    url = '/3.2/create-client/vuetify'
+    weight = 4
+    parent = 'create-client'
+[[32]]
+    name = "Quasar Framework Generator"
+    identifier = "create-client-quasar-framework-generator"
+    pageRef = '/3.2/create-client/quasar'
+    url = '/3.2/create-client/quasar'
+    weight = 5
+    parent = 'create-client'
+[[32]]
+    name = "React Generator"
+    identifier = "create-client-react-generator"
+    pageRef = '/3.2/create-client/react'
+    url = '/3.2/create-client/react'
+    weight = 6
+    parent = 'create-client'
+[[32]]
+    name = "React Native generator"
+    identifier = "create-client-react-native-generator"
+    pageRef = '/3.2/create-client/react-native'
+    url = '/3.2/create-client/react-native'
+    weight = 7
+    parent = 'create-client'
+[[32]]
+    name = "Vue.js Generator"
+    identifier = "create-client-vuejs-generator"
+    pageRef = '/3.2/create-client/vuejs'
+    url = '/3.2/create-client/vuejs'
+    weight = 8
+    parent = 'create-client'
+[[32]]
+    name = "TypeScript Interfaces"
+    identifier = "create-client-typescript-interfaces"
+    pageRef = '/3.2/create-client/typescript'
+    url = '/3.2/create-client/typescript'
+    weight = 9
+    parent = 'create-client'
+[[32]]
+    name = "Custom Generator"
+    identifier = "create-client-custom-generator"
+    pageRef = '/3.2/create-client/custom'
+    url = '/3.2/create-client/custom'
+    weight = 10
+    parent = 'create-client'
+[[32]]
+    name = "Troubleshooting"
+    identifier = "create-client-troubleshooting"
+    pageRef = '/3.2/create-client/troubleshooting'
+    url = '/3.2/create-client/troubleshooting'
+    weight = 11
+    parent = 'create-client'
+[[32]]
+    name = "Deployment"
+    identifier = "deployment"
+    pageRef = '/3.2/deployment'
+    weight = 6
+[[32]]
+    name = "Deploying API Platform Applications"
+    identifier = "deployment-deploying-api-platform-applications"
+    pageRef = '/3.2/deployment'
+    url = '/3.2/deployment'
+    weight = 1
+    parent = 'deployment'
+[[32]]
+    name = "Deploying with Docker Compose"
+    identifier = "deployment-deploying-with-docker-compose"
+    pageRef = '/3.2/deployment/docker-compose'
+    url = '/3.2/deployment/docker-compose'
+    weight = 2
+    parent = 'deployment'
+[[32]]
+    name = "Deploying to a Kubernetes Cluster"
+    identifier = "deployment-deploying-to-a-kubernetes-cluster"
+    pageRef = '/3.2/deployment/kubernetes'
+    url = '/3.2/deployment/kubernetes'
+    weight = 3
+    parent = 'deployment'
+[[32]]
+    name = "Deploying to Minikube"
+    identifier = "deployment-deploying-to-minikube"
+    pageRef = '/3.2/deployment/minikube'
+    url = '/3.2/deployment/minikube'
+    weight = 4
+    parent = 'deployment'
+[[32]]
+    name = "Deploying an API Platform App on Heroku"
+    identifier = "deployment-deploying-an-api-platform-app-on-heroku"
+    pageRef = '/3.2/deployment/heroku'
+    url = '/3.2/deployment/heroku'
+    weight = 5
+    parent = 'deployment'
+[[32]]
+    name = "Implement Træfik Into API Platform Dockerized"
+    identifier = "deployment-implement-trfik-into-api-platform-dockerized"
+    pageRef = '/3.2/deployment/traefik'
+    url = '/3.2/deployment/traefik'
+    weight = 6
+    parent = 'deployment'
+[[32]]
+    name = "General Information"
+    identifier = "general-information"
+    pageRef = '/3.2/extra'
+    weight = 7
+[[32]]
+    name = "API Platform's Philosophy"
+    identifier = "general-information-api-platforms-philosophy"
+    pageRef = '/3.2/extra/philosophy'
+    url = '/3.2/extra/philosophy'
+    weight = 1
+    parent = 'general-information'
+[[32]]
+    name = "The Release Process"
+    identifier = "general-information-the-release-process"
+    pageRef = '/3.2/extra/releases'
+    url = '/3.2/extra/releases'
+    weight = 2
+    parent = 'general-information'
+[[32]]
+    name = "API Platform for Enterprise"
+    identifier = "general-information-api-platform-for-enterprise"
+    pageRef = '/3.2/extra/enterprise'
+    url = '/3.2/extra/enterprise'
+    weight = 3
+    parent = 'general-information'
+[[32]]
+    name = "Security Policy"
+    identifier = "general-information-security-policy"
+    pageRef = '/3.2/extra/security'
+    url = '/3.2/extra/security'
+    weight = 4
+    parent = 'general-information'
+[[32]]
+    name = "Troubleshooting"
+    identifier = "general-information-troubleshooting"
+    pageRef = '/3.2/extra/troubleshooting'
+    url = '/3.2/extra/troubleshooting'
+    weight = 5
+    parent = 'general-information'
+[[32]]
+    name = "Contribution guides"
+    identifier = "general-information-contribution-guides"
+    pageRef = '/3.2/extra/contribution-guides'
+    url = '/3.2/extra/contribution-guides'
+    weight = 6
+    parent = 'general-information'
+[[32]]
+    name = "Contributor Code of Conduct"
+    identifier = "general-information-contributor-code-of-conduct"
+    pageRef = '/3.2/extra/conduct'
+    url = '/3.2/extra/conduct'
+    weight = 7
+    parent = 'general-information'
+[[32]]
+    name = "API Reference"
+    url = '/reference/3.2'
+    weight = 3
+[[32]]
+    name = "Guides"
+    url = '/guides/3.2'
+    weight = 3
+[[32]]
+    name = "Create a Custom Doctrine Filter"
+    parent = "Guides"
+    pageRef = "/guides/3.2/create-a-custom-doctrine-filter.md"
+    url = "/guides/3.2/create-a-custom-doctrine-filter"
+    weight = "10"
+[[32]]
+    name = "Custom pagination"
+    parent = "Guides"
+    pageRef = "/guides/3.2/custom-pagination.md"
+    url = "/guides/3.2/custom-pagination"
+    weight = "12"
+[[32]]
+    name = "Declare a Resource"
+    parent = "Guides"
+    pageRef = "/guides/3.2/declare-a-resource.md"
+    url = "/guides/3.2/declare-a-resource"
+    weight = "1"
+[[32]]
+    name = "Delete operation with validation"
+    parent = "Guides"
+    pageRef = "/guides/3.2/delete-operation-with-validation.md"
+    url = "/guides/3.2/delete-operation-with-validation"
+    weight = "20"
+[[32]]
+    name = "Doctrine entity as API resource"
+    parent = "Guides"
+    pageRef = "/guides/3.2/doctrine-entity-as-resource.md"
+    url = "/guides/3.2/doctrine-entity-as-resource"
+    weight = "4"
+[[32]]
+    name = "Doctrine ORM SearchFilter"
+    parent = "Guides"
+    pageRef = "/guides/3.2/doctrine-search-filter.md"
+    url = "/guides/3.2/doctrine-search-filter"
+    weight = "7"
+[[32]]
+    name = "Extend OpenAPI Documentation"
+    parent = "Guides"
+    pageRef = "/guides/3.2/extend-openapi-documentation.md"
+    url = "/guides/3.2/extend-openapi-documentation"
+    weight = "11"
+[[32]]
+    name = "Handle doctrine links"
+    parent = "Guides"
+    pageRef = "/guides/3.2/handle-links.md"
+    url = "/guides/3.2/handle-links"
+    weight = "15"
+[[32]]
+    name = "Hook a Persistence Layer with a Processor"
+    parent = "Guides"
+    pageRef = "/guides/3.2/hook-a-persistence-layer-with-a-processor.md"
+    url = "/guides/3.2/hook-a-persistence-layer-with-a-processor"
+    weight = "3"
+[[32]]
+    name = "How to create a Guide"
+    parent = "Guides"
+    pageRef = "/guides/3.2/how-to.md"
+    url = "/guides/3.2/how-to"
+    weight = "0"
+[[32]]
+    name = "Provide the Resource State"
+    parent = "Guides"
+    pageRef = "/guides/3.2/provide-the-resource-state.md"
+    url = "/guides/3.2/provide-the-resource-state"
+    weight = "2"
+[[32]]
+    name = "How to return an IRI instead of an object for your resources relations ?"
+    parent = "Guides"
+    pageRef = "/guides/3.2/return-the-iri-of-your-resources-relations.md"
+    url = "/guides/3.2/return-the-iri-of-your-resources-relations"
+    weight = "11"
+[[32]]
+    name = "Declare a subresource"
+    parent = "Guides"
+    pageRef = "/guides/3.2/subresource.md"
+    url = "/guides/3.2/subresource"
+    weight = "8"
+[[32]]
+    name = "Test your API"
+    parent = "Guides"
+    pageRef = "/guides/3.2/test-your-api.md"
+    url = "/guides/3.2/test-your-api"
+    weight = "7"
+[[32]]
+    name = "Validate incoming data"
+    parent = "Guides"
+    pageRef = "/guides/3.2/validate-incoming-data.md"
+    url = "/guides/3.2/validate-incoming-data"
+    weight = "5"
+[[32]]
+    name = "Changelog"
+    url = '/changelog/3.2'
+[[32]]
+    name = "Versions"
+[[32]]
+    name = "3.2"
+    url = '/3.2/distribution'
+    weight = 32
+    parent = "Versions"
+[[32]]
+    name = "main"
+    url = '/main/distribution'
+    weight = 0
+    parent = "Versions"
+[[main]]
+    name = "The Distribution: Create Powerful APIs with Ease"
+    identifier = "the-distribution-create-powerful-apis-with-ease"
+    pageRef = '/main/distribution'
+    weight = 1
+[[main]]
+    name = "Getting Started With API Platform: Create Your API and Your Jamstack Site"
+    identifier = "the-distribution-create-powerful-apis-with-ease-getting-started-with-api-platform-create-your-api-and-your-jamstack-site"
+    pageRef = '/main/distribution'
+    url = '/main/distribution'
+    weight = 1
+    parent = 'the-distribution-create-powerful-apis-with-ease'
+[[main]]
+    name = "Testing the API"
+    identifier = "the-distribution-create-powerful-apis-with-ease-testing-the-api"
+    pageRef = '/main/distribution/testing'
+    url = '/main/distribution/testing'
+    weight = 2
+    parent = 'the-distribution-create-powerful-apis-with-ease'
+[[main]]
+    name = "Debugging"
+    identifier = "the-distribution-create-powerful-apis-with-ease-debugging"
+    pageRef = '/main/distribution/debugging'
+    url = '/main/distribution/debugging'
+    weight = 3
+    parent = 'the-distribution-create-powerful-apis-with-ease'
+[[main]]
+    name = "Configuring the Caddy Web Server"
+    identifier = "the-distribution-create-powerful-apis-with-ease-configuring-the-caddy-web-server"
+    pageRef = '/main/distribution/caddy'
+    url = '/main/distribution/caddy'
+    weight = 4
+    parent = 'the-distribution-create-powerful-apis-with-ease'
+[[main]]
+    name = "Core"
+    identifier = "core"
+    pageRef = '/main/core'
+    weight = 2
+[[main]]
+    name = "The API Platform Core Library"
+    identifier = "core-the-api-platform-core-library"
+    pageRef = '/main/core'
+    url = '/main/core'
+    weight = 1
+    parent = 'core'
+[[main]]
+    name = "Getting started"
+    identifier = "core-getting-started"
+    pageRef = '/main/core/getting-started'
+    url = '/main/core/getting-started'
+    weight = 2
+    parent = 'core'
+[[main]]
+    name = "Upgrade Guide"
+    identifier = "core-upgrade-guide"
+    pageRef = '/main/core/upgrade-guide'
+    url = '/main/core/upgrade-guide'
+    weight = 3
+    parent = 'core'
+[[main]]
+    name = "General Design Considerations"
+    identifier = "core-general-design-considerations"
+    pageRef = '/main/core/design'
+    url = '/main/core/design'
+    weight = 4
+    parent = 'core'
+[[main]]
+    name = "Extending API Platform"
+    identifier = "core-extending-api-platform"
+    pageRef = '/main/core/extending'
+    url = '/main/core/extending'
+    weight = 5
+    parent = 'core'
+[[main]]
+    name = "Testing Utilities"
+    identifier = "core-testing-utilities"
+    pageRef = '/main/core/testing'
+    url = '/main/core/testing'
+    weight = 6
+    parent = 'core'
+[[main]]
+    name = "Operations"
+    identifier = "core-operations"
+    pageRef = '/main/core/operations'
+    url = '/main/core/operations'
+    weight = 7
+    parent = 'core'
+[[main]]
+    name = "GraphQL Support"
+    identifier = "core-graphql-support"
+    pageRef = '/main/core/graphql'
+    url = '/main/core/graphql'
+    weight = 8
+    parent = 'core'
+[[main]]
+    name = "State Providers"
+    identifier = "core-state-providers"
+    pageRef = '/main/core/state-providers'
+    url = '/main/core/state-providers'
+    weight = 9
+    parent = 'core'
+[[main]]
+    name = "State Processors"
+    identifier = "core-state-processors"
+    pageRef = '/main/core/state-processors'
+    url = '/main/core/state-processors'
+    weight = 10
+    parent = 'core'
+[[main]]
+    name = "Filters"
+    identifier = "core-filters"
+    pageRef = '/main/core/filters'
+    url = '/main/core/filters'
+    weight = 11
+    parent = 'core'
+[[main]]
+    name = "Subresources"
+    identifier = "core-subresources"
+    pageRef = '/main/core/subresources'
+    url = '/main/core/subresources'
+    weight = 12
+    parent = 'core'
+[[main]]
+    name = "The Serialization Process"
+    identifier = "core-the-serialization-process"
+    pageRef = '/main/core/serialization'
+    url = '/main/core/serialization'
+    weight = 13
+    parent = 'core'
+[[main]]
+    name = "Validation"
+    identifier = "core-validation"
+    pageRef = '/main/core/validation'
+    url = '/main/core/validation'
+    weight = 14
+    parent = 'core'
+[[main]]
+    name = "Security"
+    identifier = "core-security"
+    pageRef = '/main/core/security'
+    url = '/main/core/security'
+    weight = 15
+    parent = 'core'
+[[main]]
+    name = "Content Negotiation"
+    identifier = "core-content-negotiation"
+    pageRef = '/main/core/content-negotiation'
+    url = '/main/core/content-negotiation'
+    weight = 16
+    parent = 'core'
+[[main]]
+    name = "Pagination"
+    identifier = "core-pagination"
+    pageRef = '/main/core/pagination'
+    url = '/main/core/pagination'
+    weight = 17
+    parent = 'core'
+[[main]]
+    name = "Deprecating Resources and Properties (Alternative to Versioning)"
+    identifier = "core-deprecating-resources-and-properties-alternative-to-versioning"
+    pageRef = '/main/core/deprecations'
+    url = '/main/core/deprecations'
+    weight = 18
+    parent = 'core'
+[[main]]
+    name = "Overriding Default Order"
+    identifier = "core-overriding-default-order"
+    pageRef = '/main/core/default-order'
+    url = '/main/core/default-order'
+    weight = 19
+    parent = 'core'
+[[main]]
+    name = "Performance and Cache"
+    identifier = "core-performance-and-cache"
+    pageRef = '/main/core/performance'
+    url = '/main/core/performance'
+    weight = 20
+    parent = 'core'
+[[main]]
+    name = "Extensions"
+    identifier = "core-extensions"
+    pageRef = '/main/core/extensions'
+    url = '/main/core/extensions'
+    weight = 21
+    parent = 'core'
+[[main]]
+    name = "Symfony Messenger Integration: CQRS and Async Message Processing"
+    identifier = "core-symfony-messenger-integration-cqrs-and-async-message-processing"
+    pageRef = '/main/core/messenger'
+    url = '/main/core/messenger'
+    weight = 22
+    parent = 'core'
+[[main]]
+    name = "Using Data Transfer Objects (DTOs)"
+    identifier = "core-using-data-transfer-objects-dtos"
+    pageRef = '/main/core/dto'
+    url = '/main/core/dto'
+    weight = 23
+    parent = 'core'
+[[main]]
+    name = "OpenAPI Specification Support (formerly Swagger)"
+    identifier = "core-openapi-specification-support-formerly-swagger"
+    pageRef = '/main/core/openapi'
+    url = '/main/core/openapi'
+    weight = 24
+    parent = 'core'
+[[main]]
+    name = "JSON Schema Support"
+    identifier = "core-json-schema-support"
+    pageRef = '/main/core/json-schema'
+    url = '/main/core/json-schema'
+    weight = 25
+    parent = 'core'
+[[main]]
+    name = "Creating Async APIs using the Mercure Protocol"
+    identifier = "core-creating-async-apis-using-the-mercure-protocol"
+    pageRef = '/main/core/mercure'
+    url = '/main/core/mercure'
+    weight = 26
+    parent = 'core'
+[[main]]
+    name = "Pushing Related Resources Using HTTP/2"
+    identifier = "core-pushing-related-resources-using-http2"
+    pageRef = '/main/core/push-relations'
+    url = '/main/core/push-relations'
+    weight = 27
+    parent = 'core'
+[[main]]
+    name = "Errors Handling"
+    identifier = "core-errors-handling"
+    pageRef = '/main/core/errors'
+    url = '/main/core/errors'
+    weight = 28
+    parent = 'core'
+[[main]]
+    name = "Using External Vocabularies"
+    identifier = "core-using-external-vocabularies"
+    pageRef = '/main/core/external-vocabularies'
+    url = '/main/core/external-vocabularies'
+    weight = 29
+    parent = 'core'
+[[main]]
+    name = "Operation Path Naming"
+    identifier = "core-operation-path-naming"
+    pageRef = '/main/core/operation-path-naming'
+    url = '/main/core/operation-path-naming'
+    weight = 30
+    parent = 'core'
+[[main]]
+    name = "URL Generation Strategy"
+    identifier = "core-url-generation-strategy"
+    pageRef = '/main/core/url-generation-strategy'
+    url = '/main/core/url-generation-strategy'
+    weight = 31
+    parent = 'core'
+[[main]]
+    name = "Extending JSON-LD AND Hydra Contexts"
+    identifier = "core-extending-json-ld-and-hydra-contexts"
+    pageRef = '/main/core/extending-jsonld-context'
+    url = '/main/core/extending-jsonld-context'
+    weight = 32
+    parent = 'core'
+[[main]]
+    name = "Identifiers"
+    identifier = "core-identifiers"
+    pageRef = '/main/core/identifiers'
+    url = '/main/core/identifiers'
+    weight = 33
+    parent = 'core'
+[[main]]
+    name = "MongoDB Support"
+    identifier = "core-mongodb-support"
+    pageRef = '/main/core/mongodb'
+    url = '/main/core/mongodb'
+    weight = 34
+    parent = 'core'
+[[main]]
+    name = "Elasticsearch Support"
+    identifier = "core-elasticsearch-support"
+    pageRef = '/main/core/elasticsearch'
+    url = '/main/core/elasticsearch'
+    weight = 35
+    parent = 'core'
+[[main]]
+    name = "Creating Custom Operations and Controllers"
+    identifier = "core-creating-custom-operations-and-controllers"
+    pageRef = '/main/core/controllers'
+    url = '/main/core/controllers'
+    weight = 36
+    parent = 'core'
+[[main]]
+    name = "The Event System"
+    identifier = "core-the-event-system"
+    pageRef = '/main/core/events'
+    url = '/main/core/events'
+    weight = 37
+    parent = 'core'
+[[main]]
+    name = "Handling File Upload"
+    identifier = "core-handling-file-upload"
+    pageRef = '/main/core/file-upload'
+    url = '/main/core/file-upload'
+    weight = 38
+    parent = 'core'
+[[main]]
+    name = "JWT Authentication"
+    identifier = "core-jwt-authentication"
+    pageRef = '/main/core/jwt'
+    url = '/main/core/jwt'
+    weight = 39
+    parent = 'core'
+[[main]]
+    name = "User Entity"
+    identifier = "core-user-entity"
+    pageRef = '/main/core/user'
+    url = '/main/core/user'
+    weight = 40
+    parent = 'core'
+[[main]]
+    name = "Accept `application/x-www-form-urlencoded` Form Data"
+    identifier = "core-accept-applicationx-www-form-urlencoded-form-data"
+    pageRef = '/main/core/form-data'
+    url = '/main/core/form-data'
+    weight = 41
+    parent = 'core'
+[[main]]
+    name = "AngularJS Integration"
+    identifier = "core-angularjs-integration"
+    pageRef = '/main/core/angularjs-integration'
+    url = '/main/core/angularjs-integration'
+    weight = 42
+    parent = 'core'
+[[main]]
+    name = "FOSUserBundle Integration"
+    identifier = "core-fosuserbundle-integration"
+    pageRef = '/main/core/fosuser-bundle'
+    url = '/main/core/fosuser-bundle'
+    weight = 43
+    parent = 'core'
+[[main]]
+    name = "NelmioApiDocBundle Integration"
+    identifier = "core-nelmioapidocbundle-integration"
+    pageRef = '/main/core/nelmio-api-doc'
+    url = '/main/core/nelmio-api-doc'
+    weight = 44
+    parent = 'core'
+[[main]]
+    name = "Bootstraping the core library"
+    identifier = "core-bootstraping-the-core-library"
+    pageRef = '/main/core/bootstrap'
+    url = '/main/core/bootstrap'
+    weight = 45
+    parent = 'core'
+[[main]]
+    name = "Configuration"
+    identifier = "core-configuration"
+    pageRef = '/main/core/configuration'
+    url = '/main/core/configuration'
+    weight = 46
+    parent = 'core'
+[[main]]
+    name = "Migrate From FOSRestBundle"
+    identifier = "core-migrate-from-fosrestbundle"
+    pageRef = '/main/core/migrate-from-fosrestbundle'
+    url = '/main/core/migrate-from-fosrestbundle'
+    weight = 47
+    parent = 'core'
+[[main]]
+    name = "Schema Generator"
+    identifier = "schema-generator"
+    pageRef = '/main/schema-generator'
+    weight = 3
+[[main]]
+    name = "The Schema Generator"
+    identifier = "schema-generator-the-schema-generator"
+    pageRef = '/main/schema-generator'
+    url = '/main/schema-generator'
+    weight = 1
+    parent = 'schema-generator'
+[[main]]
+    name = "Getting Started"
+    identifier = "schema-generator-getting-started"
+    pageRef = '/main/schema-generator/getting-started'
+    url = '/main/schema-generator/getting-started'
+    weight = 2
+    parent = 'schema-generator'
+[[main]]
+    name = "Configuration"
+    identifier = "schema-generator-configuration"
+    pageRef = '/main/schema-generator/configuration'
+    url = '/main/schema-generator/configuration'
+    weight = 3
+    parent = 'schema-generator'
+[[main]]
+    name = "Admin"
+    identifier = "admin"
+    pageRef = '/main/admin'
+    weight = 4
+[[main]]
+    name = "The API Platform Admin"
+    identifier = "admin-the-api-platform-admin"
+    pageRef = '/main/admin'
+    url = '/main/admin'
+    weight = 1
+    parent = 'admin'
+[[main]]
+    name = "Getting Started"
+    identifier = "admin-getting-started"
+    pageRef = '/main/admin/getting-started'
+    url = '/main/admin/getting-started'
+    weight = 2
+    parent = 'admin'
+[[main]]
+    name = "Handling Relations"
+    identifier = "admin-handling-relations"
+    pageRef = '/main/admin/handling-relations'
+    url = '/main/admin/handling-relations'
+    weight = 3
+    parent = 'admin'
+[[main]]
+    name = "OpenAPI"
+    identifier = "admin-openapi"
+    pageRef = '/main/admin/openapi'
+    url = '/main/admin/openapi'
+    weight = 4
+    parent = 'admin'
+[[main]]
+    name = "Using the Schema.org Vocabulary"
+    identifier = "admin-using-the-schemaorg-vocabulary"
+    pageRef = '/main/admin/schema.org'
+    url = '/main/admin/schema.org'
+    weight = 5
+    parent = 'admin'
+[[main]]
+    name = "Validation"
+    identifier = "admin-validation"
+    pageRef = '/main/admin/validation'
+    url = '/main/admin/validation'
+    weight = 6
+    parent = 'admin'
+[[main]]
+    name = "Real-time Updates With Mercure"
+    identifier = "admin-real-time-updates-with-mercure"
+    pageRef = '/main/admin/real-time-mercure'
+    url = '/main/admin/real-time-mercure'
+    weight = 7
+    parent = 'admin'
+[[main]]
+    name = "Authentication Support"
+    identifier = "admin-authentication-support"
+    pageRef = '/main/admin/authentication-support'
+    url = '/main/admin/authentication-support'
+    weight = 8
+    parent = 'admin'
+[[main]]
+    name = "Handling File Upload"
+    identifier = "admin-handling-file-upload"
+    pageRef = '/main/admin/file-upload'
+    url = '/main/admin/file-upload'
+    weight = 9
+    parent = 'admin'
+[[main]]
+    name = "Performance"
+    identifier = "admin-performance"
+    pageRef = '/main/admin/performance'
+    url = '/main/admin/performance'
+    weight = 10
+    parent = 'admin'
+[[main]]
+    name = "Customizing the Admin"
+    identifier = "admin-customizing-the-admin"
+    pageRef = '/main/admin/customizing'
+    url = '/main/admin/customizing'
+    weight = 11
+    parent = 'admin'
+[[main]]
+    name = "Components"
+    identifier = "admin-components"
+    pageRef = '/main/admin/components'
+    url = '/main/admin/components'
+    weight = 12
+    parent = 'admin'
+[[main]]
+    name = "Create Client"
+    identifier = "create-client"
+    pageRef = '/main/create-client'
+    weight = 5
+[[main]]
+    name = "API Platform Create Client"
+    identifier = "create-client-api-platform-create-client"
+    pageRef = '/main/create-client'
+    url = '/main/create-client'
+    weight = 1
+    parent = 'create-client'
+[[main]]
+    name = "Next.js Generator"
+    identifier = "create-client-nextjs-generator"
+    pageRef = '/main/create-client/nextjs'
+    url = '/main/create-client/nextjs'
+    weight = 2
+    parent = 'create-client'
+[[main]]
+    name = "Nuxt Generator"
+    identifier = "create-client-nuxt-generator"
+    pageRef = '/main/create-client/nuxt'
+    url = '/main/create-client/nuxt'
+    weight = 3
+    parent = 'create-client'
+[[main]]
+    name = "Vuetify Generator"
+    identifier = "create-client-vuetify-generator"
+    pageRef = '/main/create-client/vuetify'
+    url = '/main/create-client/vuetify'
+    weight = 4
+    parent = 'create-client'
+[[main]]
+    name = "Quasar Framework Generator"
+    identifier = "create-client-quasar-framework-generator"
+    pageRef = '/main/create-client/quasar'
+    url = '/main/create-client/quasar'
+    weight = 5
+    parent = 'create-client'
+[[main]]
+    name = "React Generator"
+    identifier = "create-client-react-generator"
+    pageRef = '/main/create-client/react'
+    url = '/main/create-client/react'
+    weight = 6
+    parent = 'create-client'
+[[main]]
+    name = "React Native generator"
+    identifier = "create-client-react-native-generator"
+    pageRef = '/main/create-client/react-native'
+    url = '/main/create-client/react-native'
+    weight = 7
+    parent = 'create-client'
+[[main]]
+    name = "Vue.js Generator"
+    identifier = "create-client-vuejs-generator"
+    pageRef = '/main/create-client/vuejs'
+    url = '/main/create-client/vuejs'
+    weight = 8
+    parent = 'create-client'
+[[main]]
+    name = "TypeScript Interfaces"
+    identifier = "create-client-typescript-interfaces"
+    pageRef = '/main/create-client/typescript'
+    url = '/main/create-client/typescript'
+    weight = 9
+    parent = 'create-client'
+[[main]]
+    name = "Custom Generator"
+    identifier = "create-client-custom-generator"
+    pageRef = '/main/create-client/custom'
+    url = '/main/create-client/custom'
+    weight = 10
+    parent = 'create-client'
+[[main]]
+    name = "Troubleshooting"
+    identifier = "create-client-troubleshooting"
+    pageRef = '/main/create-client/troubleshooting'
+    url = '/main/create-client/troubleshooting'
+    weight = 11
+    parent = 'create-client'
+[[main]]
+    name = "Deployment"
+    identifier = "deployment"
+    pageRef = '/main/deployment'
+    weight = 6
+[[main]]
+    name = "Deploying API Platform Applications"
+    identifier = "deployment-deploying-api-platform-applications"
+    pageRef = '/main/deployment'
+    url = '/main/deployment'
+    weight = 1
+    parent = 'deployment'
+[[main]]
+    name = "Deploying with Docker Compose"
+    identifier = "deployment-deploying-with-docker-compose"
+    pageRef = '/main/deployment/docker-compose'
+    url = '/main/deployment/docker-compose'
+    weight = 2
+    parent = 'deployment'
+[[main]]
+    name = "Deploying to a Kubernetes Cluster"
+    identifier = "deployment-deploying-to-a-kubernetes-cluster"
+    pageRef = '/main/deployment/kubernetes'
+    url = '/main/deployment/kubernetes'
+    weight = 3
+    parent = 'deployment'
+[[main]]
+    name = "Deploying to Minikube"
+    identifier = "deployment-deploying-to-minikube"
+    pageRef = '/main/deployment/minikube'
+    url = '/main/deployment/minikube'
+    weight = 4
+    parent = 'deployment'
+[[main]]
+    name = "Deploying an API Platform App on Heroku"
+    identifier = "deployment-deploying-an-api-platform-app-on-heroku"
+    pageRef = '/main/deployment/heroku'
+    url = '/main/deployment/heroku'
+    weight = 5
+    parent = 'deployment'
+[[main]]
+    name = "Implement Træfik Into API Platform Dockerized"
+    identifier = "deployment-implement-trfik-into-api-platform-dockerized"
+    pageRef = '/main/deployment/traefik'
+    url = '/main/deployment/traefik'
+    weight = 6
+    parent = 'deployment'
+[[main]]
+    name = "General Information"
+    identifier = "general-information"
+    pageRef = '/main/extra'
+    weight = 7
+[[main]]
+    name = "API Platform's Philosophy"
+    identifier = "general-information-api-platforms-philosophy"
+    pageRef = '/main/extra/philosophy'
+    url = '/main/extra/philosophy'
+    weight = 1
+    parent = 'general-information'
+[[main]]
+    name = "The Release Process"
+    identifier = "general-information-the-release-process"
+    pageRef = '/main/extra/releases'
+    url = '/main/extra/releases'
+    weight = 2
+    parent = 'general-information'
+[[main]]
+    name = "API Platform for Enterprise"
+    identifier = "general-information-api-platform-for-enterprise"
+    pageRef = '/main/extra/enterprise'
+    url = '/main/extra/enterprise'
+    weight = 3
+    parent = 'general-information'
+[[main]]
+    name = "Security Policy"
+    identifier = "general-information-security-policy"
+    pageRef = '/main/extra/security'
+    url = '/main/extra/security'
+    weight = 4
+    parent = 'general-information'
+[[main]]
+    name = "Troubleshooting"
+    identifier = "general-information-troubleshooting"
+    pageRef = '/main/extra/troubleshooting'
+    url = '/main/extra/troubleshooting'
+    weight = 5
+    parent = 'general-information'
+[[main]]
+    name = "Contribution guides"
+    identifier = "general-information-contribution-guides"
+    pageRef = '/main/extra/contribution-guides'
+    url = '/main/extra/contribution-guides'
+    weight = 6
+    parent = 'general-information'
+[[main]]
+    name = "Contributor Code of Conduct"
+    identifier = "general-information-contributor-code-of-conduct"
+    pageRef = '/main/extra/conduct'
+    url = '/main/extra/conduct'
+    weight = 7
+    parent = 'general-information'
+[[main]]
+    name = "API Reference"
+    url = '/reference/main'
+    weight = 3
+[[main]]
+    name = "Guides"
+    url = '/guides/main'
+    weight = 3
+[[main]]
+    name = "Create a Custom Doctrine Filter"
+    parent = "Guides"
+    pageRef = "/guides/main/create-a-custom-doctrine-filter.md"
+    url = "/guides/main/create-a-custom-doctrine-filter"
+    weight = "10"
+[[main]]
+    name = "Custom pagination"
+    parent = "Guides"
+    pageRef = "/guides/main/custom-pagination.md"
+    url = "/guides/main/custom-pagination"
+    weight = "12"
+[[main]]
+    name = "Declare a Resource"
+    parent = "Guides"
+    pageRef = "/guides/main/declare-a-resource.md"
+    url = "/guides/main/declare-a-resource"
+    weight = "1"
+[[main]]
+    name = "Delete operation with validation"
+    parent = "Guides"
+    pageRef = "/guides/main/delete-operation-with-validation.md"
+    url = "/guides/main/delete-operation-with-validation"
+    weight = "20"
+[[main]]
+    name = "Doctrine entity as API resource"
+    parent = "Guides"
+    pageRef = "/guides/main/doctrine-entity-as-resource.md"
+    url = "/guides/main/doctrine-entity-as-resource"
+    weight = "4"
+[[main]]
+    name = "Doctrine ORM SearchFilter"
+    parent = "Guides"
+    pageRef = "/guides/main/doctrine-search-filter.md"
+    url = "/guides/main/doctrine-search-filter"
+    weight = "7"
+[[main]]
+    name = "Extend OpenAPI Documentation"
+    parent = "Guides"
+    pageRef = "/guides/main/extend-openapi-documentation.md"
+    url = "/guides/main/extend-openapi-documentation"
+    weight = "11"
+[[main]]
+    name = "Handle doctrine links"
+    parent = "Guides"
+    pageRef = "/guides/main/handle-links.md"
+    url = "/guides/main/handle-links"
+    weight = "15"
+[[main]]
+    name = "Hook a Persistence Layer with a Processor"
+    parent = "Guides"
+    pageRef = "/guides/main/hook-a-persistence-layer-with-a-processor.md"
+    url = "/guides/main/hook-a-persistence-layer-with-a-processor"
+    weight = "3"
+[[main]]
+    name = "How to create a Guide"
+    parent = "Guides"
+    pageRef = "/guides/main/how-to.md"
+    url = "/guides/main/how-to"
+    weight = "0"
+[[main]]
+    name = "Provide the Resource State"
+    parent = "Guides"
+    pageRef = "/guides/main/provide-the-resource-state.md"
+    url = "/guides/main/provide-the-resource-state"
+    weight = "2"
+[[main]]
+    name = "How to return an IRI instead of an object for your resources relations ?"
+    parent = "Guides"
+    pageRef = "/guides/main/return-the-iri-of-your-resources-relations.md"
+    url = "/guides/main/return-the-iri-of-your-resources-relations"
+    weight = "11"
+[[main]]
+    name = "Declare a subresource"
+    parent = "Guides"
+    pageRef = "/guides/main/subresource.md"
+    url = "/guides/main/subresource"
+    weight = "8"
+[[main]]
+    name = "Test your API"
+    parent = "Guides"
+    pageRef = "/guides/main/test-your-api.md"
+    url = "/guides/main/test-your-api"
+    weight = "7"
+[[main]]
+    name = "Validate incoming data"
+    parent = "Guides"
+    pageRef = "/guides/main/validate-incoming-data.md"
+    url = "/guides/main/validate-incoming-data"
+    weight = "5"
+[[main]]
+    name = "Changelog"
+    url = '/changelog/main'
+[[main]]
+    name = "Versions"
+[[main]]
+    name = "3.2"
+    url = '/3.2/distribution'
+    weight = 32
+    parent = "Versions"
+[[main]]
+    name = "main"
+    url = '/main/distribution'
+    weight = 0
+    parent = "Versions"

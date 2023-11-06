@@ -1,0 +1,6 @@
+.phive
+core.temp
+docs.temp
+public
+content/*
+node_modules
