@@ -20,7 +20,7 @@
   {{- else if or (eq $menuID "guides") (eq $menuID "reference") }}
     {{- .Scratch.Set "menuID" (index (split .Page.Permalink "/") 5) }}
   {{- end }}
-  {{- $menuID := .Scratch.Get "menuID" }}
+  {{- $menuID := replace (.Scratch.Get "menuID") "." "" }}
   {{ partial "menu.html" (dict "menuID" $menuID "page" .) }}
   </nav>
 </div>

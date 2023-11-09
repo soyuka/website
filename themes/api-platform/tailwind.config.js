@@ -123,6 +123,7 @@ module.exports = {
             "--tw-prose-bold": theme("colors.blue.DEFAULT"),
             "--tw-prose-invert-body": theme("colors.gray.400"),
             "--tw-prose-invert-headings": theme("colors.gray.300"),
+            "--tw-prose-pre-bg": theme("colors.gray.100")
             // ...typographyConfig.css,
           },
         },

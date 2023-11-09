@@ -1878,7 +1878,7 @@ img {
   --tw-prose-kbd-shadows: 17 24 39;
   --tw-prose-code: #111827;
   --tw-prose-pre-code: #e5e7eb;
-  --tw-prose-pre-bg: #1f2937;
+  --tw-prose-pre-bg: #f3f4f6;
   --tw-prose-th-borders: #d1d5db;
   --tw-prose-td-borders: #e5e7eb;
   --tw-prose-invert-body: #9ca3af;
@@ -2093,6 +2093,12 @@ img {
   /* useful to set correct height on empty lines */
 }
 
+.reference h1 a {
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(0 153 161 / var(--tw-text-opacity));
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -2174,6 +2180,10 @@ img {
   margin-bottom: 4rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -2184,6 +2194,10 @@ img {
 
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mt-10 {
@@ -2554,6 +2568,10 @@ img {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -2718,6 +2736,26 @@ img {
 .border-t-blue-dark {
   --tw-border-opacity: 1;
   border-top-color: rgb(0 85 90 / var(--tw-border-opacity));
+}
+
+.bg-\[\#6E6E6E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(110 110 110 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#7CB342\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(124 179 66 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#c41d77\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(196 29 119 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f09f17\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 159 23 / var(--tw-bg-opacity));
 }
 
 .bg-blue {
@@ -3957,6 +3995,11 @@ kbd.DocSearch-Commands-Key) {
 :is(.dark .dark\:text-gray-300) {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-gray-500) {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-white) {

@@ -62,6 +62,10 @@
     .doc code span.line:not(:last-of-type):after {
         content: "\200B"; /* useful to set correct height on empty lines */
     }
+
+    .reference h1 a {
+        @apply text-blue font-semibold; 
+    }
 }
 
 @layer utilities {

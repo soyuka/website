@@ -19,3 +19,5 @@ disablePathToLower = true
     # noHl = false
     style = 'github'
     # tabWidth = 4
+  [markup.goldmark.renderer]
+    unsafe= true
