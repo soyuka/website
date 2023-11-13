@@ -20,8 +20,8 @@ function ApiPlatform() {
     sidebar: true,
   }
 
-  const menuElements = document.querySelectorAll('[data-open]')
   function toggleMenu(event) {
+    const menuElements = document.querySelectorAll('[data-open]')
     event.preventDefault()
     state.menu = !state.menu
     toggleClasses(menuElements, 'open', 'close', state.menu)
@@ -29,8 +29,8 @@ function ApiPlatform() {
 
   window.toggleMenu = toggleMenu
 
-  const sidebarElements = document.querySelectorAll('[data-minimize]')
   function toggleSidebar(event) {
+    const sidebarElements = document.querySelectorAll('[data-minimize]')
     event.preventDefault()
     state.sidebar = !state.sidebar
     toggleClasses(sidebarElements, 'maximize', 'minimize', state.sidebar)
