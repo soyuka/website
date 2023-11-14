@@ -2115,6 +2115,7 @@ img {
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(0 153 161 / var(--tw-text-opacity));
+  text-decoration-line: none;
 }
 
 .pointer-events-none {
