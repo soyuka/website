@@ -26,7 +26,7 @@ do
 		mkdir -p $root/content/{guides,reference}/$version
 		cd $root/core.temp/docs
 		cp $root/pdg.config.yaml pdg.config.yaml
-		$root/tools/pdg guides $root/content/guides/$version
-		$root/tools/pdg references $root/core.temp/src $root/content/reference/$version --base-url /docs/v$version/reference
+		~/forks/php-documentation-generator/bin/pdg guides $root/content/guides/$version
+		~/forks/php-documentation-generator/bin/pdg references $root/core.temp/src $root/content/reference/$version --base-url /docs/v$version/reference
 	fi
 done

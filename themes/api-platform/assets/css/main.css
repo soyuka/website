@@ -2154,6 +2154,10 @@ img {
   left: 50%;
 }
 
+.left-2 {
+  left: 0.5rem;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -2172,6 +2176,10 @@ img {
 
 .top-1 {
   top: 0.25rem;
+}
+
+.top-1\/2 {
+  top: 50%;
 }
 
 .top-16 {
@@ -2251,6 +2259,10 @@ img {
   margin-top: 3rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -2299,12 +2311,20 @@ img {
   height: 1.25rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-7 {
   height: 1.75rem;
 }
 
 .h-8 {
   height: 2rem;
+}
+
+.h-9 {
+  height: 2.25rem;
 }
 
 .h-\[50px\] {
@@ -2493,6 +2513,11 @@ img {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .translate-x-12 {
   --tw-translate-x: 3rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2636,6 +2661,12 @@ img {
   cursor: pointer;
 }
 
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -2713,6 +2744,10 @@ img {
   border-radius: 1.5rem;
 }
 
+.rounded-\[14px\] {
+  border-radius: 14px;
+}
+
 .rounded-full {
   border-radius: 100%;
 }
@@ -2752,6 +2787,10 @@ img {
 
 .border-dotted {
   border-style: dotted;
+}
+
+.border-none {
+  border-style: none;
 }
 
 .border-blue {
@@ -2912,6 +2951,11 @@ img {
   padding-right: 0.75rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -2937,6 +2981,11 @@ img {
   padding-bottom: 4rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2947,8 +2996,20 @@ img {
   padding-bottom: 1.5rem;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pr-8 {
@@ -2965,6 +3026,10 @@ img {
 
 .pt-36 {
   padding-top: 9rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pt-6 {
@@ -2990,6 +3055,10 @@ img {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 2.85rem;
 }
 
 .text-\[10px\] {
@@ -3036,8 +3105,16 @@ img {
   line-height: 2;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
 .leading-relaxed {
   line-height: 1.625;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .text-blue {
@@ -3973,6 +4050,20 @@ kbd.DocSearch-Commands-Key) {
   }
 }
 
+.focus\:bg-white\/90:focus {
+  background-color: rgb(255 255 255 / 0.9);
+}
+
+.focus\:text-blue:focus {
+  --tw-text-opacity: 1;
+  color: rgb(0 153 161 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .group:last-child .group-last\:border-0 {
   border-width: 0px;
 }
@@ -4101,6 +4192,11 @@ kbd.DocSearch-Commands-Key) {
   color: rgb(13 38 43 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:text-blue-darkest) {
+  --tw-text-opacity: 1;
+  color: rgb(1 49 55 / var(--tw-text-opacity));
+}
+
 :is(.dark .dark\:text-blue-extralight) {
   --tw-text-opacity: 1;
   color: rgb(163 210 212 / var(--tw-text-opacity));
@@ -4137,6 +4233,10 @@ kbd.DocSearch-Commands-Key) {
 :is(.dark .dark\:brightness-90) {
   --tw-brightness: brightness(.9);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+:is(.dark .dark\:focus\:bg-blue-darkest\/80:focus) {
+  background-color: rgb(1 49 55 / 0.8);
 }
 
 :is(.dark .prose-code\:dark\:bg-blue-darkest) :is(:where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
@@ -4355,6 +4455,11 @@ kbd.DocSearch-Commands-Key) {
     gap: 2rem;
   }
 
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .sm\:text-left {
     text-align: left;
   }
@@ -4451,6 +4556,10 @@ kbd.DocSearch-Commands-Key) {
 @media (min-width: 768px) {
   .md\:block {
     display: block;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
   }
 
   .md\:-translate-x-12 {
@@ -4621,6 +4730,14 @@ kbd.DocSearch-Commands-Key) {
   .md\:rotate-90 {
     --tw-rotate: 90deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:px-10 {
@@ -4976,6 +5093,11 @@ kbd.DocSearch-Commands-Key) {
     padding-right: 1rem;
   }
 
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -5103,8 +5225,25 @@ kbd.DocSearch-Commands-Key) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
   .xl\:border-b-px {
     border-bottom-width: 1px;
+  }
+
+  .xl\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .xl\:pb-8 {

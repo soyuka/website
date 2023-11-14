@@ -1,38 +1,46 @@
 {{ define "main" }}
-  <div class="px-6 md:px-10 py-6 leading-loose text-blue-black/80 dark:text-white/80">
     <!-- <BreadCrumbs breadCrumbs={breadCrumbs} /> -->
     <div class="prose max-w-none dark:prose-invert prose-img:w-full prose-img:max-w-2xl prose-headings:font-title prose-h1:font-bold prose-code:after:hidden prose-code:before:hidden prose-code:py-1 prose-code:px-1.5 prose-code:bg-gray-100 prose-code:dark:bg-blue-darkest prose-h1:border-b-px prose-h1:border-b-gray-300 prose-h1:pb-2 max-md:prose-tr:flex max-md:prose-tr:flex-col max-md:prose-td:px-0 max-md:prose-td:py-1">
 
       <div class="doc">
-        hi
-        {{ .Content }}
+
+      <!-- <BreadCrumbs breadCrumbs={[{ title: "References" }]} /> -->
+        <div class="bg-blue py-4 text-white px-4 sm:px-6 md:px-10 flex flex-col | lg:py-8 | xl:py-12 xl:flex-row xl:justify-between">
+          <h1 class="font-title text-5xl font-light leading-none text-white dark:text-blue-darkest border-none">Reference</h1>
+          <div class="mt-2 flex flex-col gap-2 | md:flex-row md:flex-1 md:items-center | xl:justify-end">
+            <!-- <ReferenceFilterDropdown value={type} onChange={setType} /> -->
+            <div class="relative inline-flex text-blue h-9">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 absolute left-2 top-1/2 -translate-y-1/2 pointer-events-none"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+              <input
+                class="pl-12 w-full bg-white rounded-[14px] appearance-none py-2 pr-4 text-gray-500 leading-tight focus:outline-none  focus:text-blue focus:bg-white/90 | dark:bg-blue-darkest dark:focus:bg-blue-darkest/80"
+                type="search"
+                placeholder="Search..."
+                autoComplete="off"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="px-8 pt-4 pb-12">
+          {{ with (index $.Site.Data.reference (path.Base .Page.Permalink)) }}
+            {{ . }}
+          {{ end }}
+          <!-- {filteredSummary.map(({ title, links }) => ( -->
+          <!--   <ReferenceSummaryPart key={title} title={title} links={links} /> -->
+          <!-- ))} -->
+        </div>
       </div>
-
-      <p class="mt-10">
-        <a
-          class="text-blue"
-        >
-          <!-- href={`https://github.com/api-platform/docs/edit/${v}/${path}`} -->
-          You can also help us improve the documentation of this page.
-        </a>
-      </p>
     </div>
-    <Script id="codeselector-switch">
-      {`function switchCode(event) {
-      const k = event.target.getAttribute('key')
-      const p = event.target.parentNode.parentNode.parentNode
-      ;[].slice.call(p.querySelectorAll('div[key]')).forEach(e => e.classList.add('hidden'))
-      const n = p.querySelector('div[key="'+k+'"]').classList.remove('hidden')
-
-      // want a single argument to why tailwind sucks?
-      const selectedClasses = 'text-blue dark:text-white border-blue bg-blue-black/5 dark:bg-blue-black/30'.split(' ')
-      const notSelectedClasses = 'text-gray-400 dark:text-blue/60 border-transparent'.split(' ')
-
-      ;[].slice.call(event.target.parentNode.parentNode.querySelectorAll('[role="button"]')).forEach(e => e.classList.remove(...selectedClasses) && e.classList.add(...notSelectedClasses))
-      event.target.classList.remove(...notSelectedClasses)
-      event.target.classList.add(...selectedClasses)
-
-    }`}
-    </Script>
-  </div>
 {{ end }}

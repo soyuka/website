@@ -1,4 +1,7 @@
-import { parse } from 'yaml'
+import { parse, stringify } from 'yaml'
+import path from 'path'
+import { mkdirpSync } from 'mkdirp'
+import { globSync } from 'glob'
 import {existsSync, readFileSync, readdirSync, writeFileSync} from 'fs'
 import matter from 'gray-matter';
 
@@ -33,6 +36,27 @@ let menu = ``
 const versions = readFileSync('./docs-versions.txt', {encoding: 'utf8'}).split('\n').map((v) => v.trim()).filter(v => v)
 
 versions.forEach((version) => {
+  // API Reference _index generation
+  if (existsSync(`./content/reference/${version}`)) {
+    let referenceIndex = ''
+    const titles = readdirSync(`./content/reference/${version}`)
+    const index = {}
+
+    titles.forEach((title) => {
+      const links = globSync(`./content/reference/${version}/${title}/*.md`).map((file) => {
+        const {data} =  matter(readFileSync(file, {encoding: 'utf8'}).toString())
+        const link = `/docs/${file}`.replace('.md', '')
+        return {type: data['php-type'], title: link.replace(`/docs/content/reference/${version}/`, ''), link}
+      })
+
+      index[title] = links
+    })
+
+    writeFileSync(`./content/reference/${version}/_index.md`, '')
+    mkdirpSync('./data/reference')
+    writeFileSync(`./data/reference/${version}.yaml`, stringify(index))
+  }
+
   const file = readFileSync(`./content/${version}/outline.yaml`, {encoding: 'utf8'})
   const data = parse(file)
   const menuVersion = version.replace('.', '')
