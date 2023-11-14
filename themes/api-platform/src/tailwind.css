@@ -72,7 +72,7 @@
     }
 
     .reference h1 a {
-        @apply text-blue font-semibold; 
+        @apply text-blue font-semibold no-underline; 
     }
 }
 

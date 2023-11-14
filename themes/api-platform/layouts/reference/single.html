@@ -6,7 +6,7 @@
 	<div class="uppercase text-sm font-bold flex flex-row items-center mb-2">
 		{{- $phpType := .Page.Param "php-type" }}
 		<div class="w-5 h-5 text-white flex items-center justify-center mr-2 text-xs font-bold dark:text-blue-black 
-      {{- if eq $phpType " Class" }} bg-blue {{- else if eq $phpType "Attribute" }} bg-[#f09f17] {{- else if eq
+      {{- if eq $phpType "Class" }} bg-blue {{- else if eq $phpType "Attribute" }} bg-[#f09f17] {{- else if eq
 			$phpType "Interface" }} bg-[#c41d77] {{- else if eq $phpType "Trait" }} bg-[#7CB342] {{else}} bg-[#6E6E6E] {{ end
 			}} ">
       {{ substr $phpType 0 1 }}
@@ -21,6 +21,4 @@
 			{{ .Content }}
 		</div>
 	</div>
-</div>
-</div>
 {{ end }}
