@@ -63,6 +63,14 @@
         content: "\200B"; /* useful to set correct height on empty lines */
     }
 
+    .doc.guide pre {
+      @apply px-4 py-4 xl:py-0;
+    }
+
+    .doc.guide a {
+      @apply font-semibold;
+    }
+
     .reference h1 a {
         @apply text-blue font-semibold; 
     }
