@@ -31,28 +31,56 @@ function extractTitleFromMarkdown(content) {
   return null;
 }
 
+function getColor(type) {
+  switch (type.toLowerCase()) {
+    case "class":
+      return "bg-blue";
+    case "interface":
+      return "bg-[#c41d77]";
+    case "trait":
+      return "bg-[#7CB342]";
+    case "attribute":
+      return "bg-[#f09f17]";
+    default:
+      return "bg-[#6E6E6E]";
+  }
+}
+
 let menu = ``
 
 const versions = readFileSync('./docs-versions.txt', {encoding: 'utf8'}).split('\n').map((v) => v.trim()).filter(v => v)
 
 versions.forEach((version) => {
   // API Reference _index generation
-  if (existsSync(`./content/reference/${version}`)) {
+  if (existsSync(`./content/${version}/reference/`)) {
     let referenceIndex = ''
-    const titles = readdirSync(`./content/reference/${version}`)
+    const titles = readdirSync(`./content/${version}/reference/`)
     const index = {}
 
     titles.forEach((title) => {
-      const links = globSync(`./content/reference/${version}/${title}/*.md`).map((file) => {
+      if (title === '_index.md') {
+        return
+      }
+
+      const links = globSync(`./content/${version}/reference/${title}/**/*.md`).map((file) => {
         const {data} =  matter(readFileSync(file, {encoding: 'utf8'}).toString())
-        const link = `/docs/${file}`.replace('.md', '')
-        return {type: data['php-type'], title: link.replace(`/docs/content/reference/${version}/`, ''), link}
+        const link = `/docs/${file}`.replace('.md', '').replace('/content', '')
+        let type = data['php-type']
+        if (!type) {
+          type = 'Class';
+        }
+
+        return {type, title: link.replace(`/docs/${version}/reference/`, ''), link, color: getColor(type)}
       })
 
       index[title] = links
     })
 
-    writeFileSync(`./content/reference/${version}/_index.md`, '')
+    writeFileSync(`./content/${version}/reference/_index.md`, `
+---
+type: reference
+---
+`)
     mkdirpSync('./data/reference')
     writeFileSync(`./data/reference/${version}.yaml`, stringify(index))
   }
@@ -90,27 +118,29 @@ versions.forEach((version) => {
     })
   })
 
+  if (existsSync(`./content/${version}/reference`)) {
   menu += `[[${menuVersion}]]
     name = "API Reference"
-    url = '/reference/${version}'
+    url = '/${version}/reference/'
     weight = 3
 `
+  }
 
-  if (existsSync(`./content/guides/${version}`)) {
+  if (existsSync(`./content/${version}/guides`)) {
   menu += `[[${menuVersion}]]
     name = "Guides"
-    url = '/guides/${version}'
+    url = '/${version}/guides/'
     weight = 3
 `
 
-    const guides = readdirSync(`./content/guides/${version}`)
+    const guides = readdirSync(`./content/${version}/guides/`)
     guides.forEach((guide) => {
-      const {data} =  matter(readFileSync(`./content/guides/${version}/${guide}`, {encoding: 'utf8'}).toString())
+      const {data} =  matter(readFileSync(`./content/${version}/guides/${guide}`, {encoding: 'utf8'}).toString())
       menu += `[[${menuVersion}]]
     name = "${data.name}"
     parent = "Guides"
-    pageRef = "/guides/${version}/${guide}"
-    url = "/guides/${version}/${data.slug}"
+    pageRef = "/${version}/guides/${guide}"
+    url = "/${version}/guides/${data.slug}"
     weight = "${data.position}"
 `
     })
@@ -118,7 +148,7 @@ versions.forEach((version) => {
 
   menu += `[[${menuVersion}]]
     name = "Changelog"
-    url = '/changelog/${version}'
+    url = '/${version}/changelog/'
 `
 
   menu += `[[${menuVersion}]]
@@ -134,6 +164,8 @@ versions.forEach((version) => {
 `
 
   })
+
 })
 
 writeFileSync('config/_default/menus.toml', menu)
+

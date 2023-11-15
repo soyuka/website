@@ -12,15 +12,6 @@
   </button>
   <nav class="relative w-72 h-full px-8 pt-16 overflow-y-auto transition-all duration-300" data-minimize="-translate-x-full">
   {{- $menuID := replace .Page.Section "." "" }}
-  {{- .Scratch.Set "menuID" $menuID }}
-  {{- if eq $menuID "" }}
-    {{- .Scratch.Set "menuID" "main" }}
-  {{- else if eq $menuID "changelog" }}
-    {{- .Scratch.Set "menuID" (path.Base .Page.Permalink) }}
-  {{- else if or (eq $menuID "guides") (eq $menuID "reference") }}
-    {{- .Scratch.Set "menuID" (index (split .Page.Permalink "/") 5) }}
-  {{- end }}
-  {{- $menuID := replace (.Scratch.Get "menuID") "." "" }}
   {{ partial "menu.html" (dict "menuID" $menuID "page" .) }}
   </nav>
 </div>

@@ -34,7 +34,7 @@
   <p class="mt-10">
     <a
       class="text-blue"
-      href="https://github.com/api-platform/core/edit/${version}/docs/guides/${slug}.php"
+      href="https://github.com/api-platform/core/edit/{{ substr (replace (replace .Page.RelPermalink "/docs/" "") "/guides" "/docs/guides") 0 -1 }}.php"
     >
       You can also help us improve this guide.
     </a>

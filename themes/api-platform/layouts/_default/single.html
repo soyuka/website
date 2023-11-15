@@ -13,23 +13,5 @@
         <a href="https://github.com/api-platform/docs/edit/{{ substr (replace .Page.RelPermalink "/docs/" "") 0 -1 }}.md">You can also help us improve the documentation of this page.</a>
     </p>
   </div>
-  <!-- <Script id="codeselector-switch"> -->
-  <!--   { -->
-  <!--     `function switchCode(event) { -->
-  <!--     const k = event.target.getAttribute('key') -->
-  <!--     const p = event.target.parentNode.parentNode.parentNode -->
-  <!--     ;[].slice.call(p.querySelectorAll('div[key]')).forEach(e => e.classList.add('hidden')) -->
-  <!--     const n = p.querySelector('div[key="'+k+'"]').classList.remove('hidden') -->
-  <!---->
-  <!--     // want a single argument to why tailwind sucks? -->
-  <!--     const selectedClasses = 'text-blue dark:text-white border-blue bg-blue-black/5 dark:bg-blue-black/30'.split(' ') -->
-  <!--     const notSelectedClasses = 'text-gray-400 dark:text-blue/60 border-transparent'.split(' ') -->
-  <!---->
-  <!--     ;[].slice.call(event.target.parentNode.parentNode.querySelectorAll('[role="button"]')).forEach(e => e.classList.remove(...selectedClasses) && e.classList.add(...notSelectedClasses)) -->
-  <!--     event.target.classList.remove(...notSelectedClasses) -->
-  <!--     event.target.classList.add(...selectedClasses) -->
-  <!---->
-  <!--   }`} -->
-  <!-- </Script> -->
 </div>
 {{ end }}

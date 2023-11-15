@@ -665,105 +665,105 @@
     parent = 'general-information'
 [[32]]
     name = "API Reference"
-    url = '/reference/3.2'
+    url = '/3.2/reference/'
     weight = 3
 [[32]]
     name = "Guides"
-    url = '/guides/3.2'
+    url = '/3.2/guides/'
     weight = 3
 [[32]]
     name = "Create a Custom Doctrine Filter"
     parent = "Guides"
-    pageRef = "/guides/3.2/create-a-custom-doctrine-filter.md"
-    url = "/guides/3.2/create-a-custom-doctrine-filter"
+    pageRef = "/3.2/guides/create-a-custom-doctrine-filter.md"
+    url = "/3.2/guides/create-a-custom-doctrine-filter"
     weight = "10"
 [[32]]
     name = "Custom pagination"
     parent = "Guides"
-    pageRef = "/guides/3.2/custom-pagination.md"
-    url = "/guides/3.2/custom-pagination"
+    pageRef = "/3.2/guides/custom-pagination.md"
+    url = "/3.2/guides/custom-pagination"
     weight = "12"
 [[32]]
     name = "Declare a Resource"
     parent = "Guides"
-    pageRef = "/guides/3.2/declare-a-resource.md"
-    url = "/guides/3.2/declare-a-resource"
+    pageRef = "/3.2/guides/declare-a-resource.md"
+    url = "/3.2/guides/declare-a-resource"
     weight = "1"
 [[32]]
     name = "Delete operation with validation"
     parent = "Guides"
-    pageRef = "/guides/3.2/delete-operation-with-validation.md"
-    url = "/guides/3.2/delete-operation-with-validation"
+    pageRef = "/3.2/guides/delete-operation-with-validation.md"
+    url = "/3.2/guides/delete-operation-with-validation"
     weight = "20"
 [[32]]
     name = "Doctrine entity as API resource"
     parent = "Guides"
-    pageRef = "/guides/3.2/doctrine-entity-as-resource.md"
-    url = "/guides/3.2/doctrine-entity-as-resource"
+    pageRef = "/3.2/guides/doctrine-entity-as-resource.md"
+    url = "/3.2/guides/doctrine-entity-as-resource"
     weight = "4"
 [[32]]
     name = "Doctrine ORM SearchFilter"
     parent = "Guides"
-    pageRef = "/guides/3.2/doctrine-search-filter.md"
-    url = "/guides/3.2/doctrine-search-filter"
+    pageRef = "/3.2/guides/doctrine-search-filter.md"
+    url = "/3.2/guides/doctrine-search-filter"
     weight = "7"
 [[32]]
     name = "Extend OpenAPI Documentation"
     parent = "Guides"
-    pageRef = "/guides/3.2/extend-openapi-documentation.md"
-    url = "/guides/3.2/extend-openapi-documentation"
+    pageRef = "/3.2/guides/extend-openapi-documentation.md"
+    url = "/3.2/guides/extend-openapi-documentation"
     weight = "11"
 [[32]]
     name = "Handle doctrine links"
     parent = "Guides"
-    pageRef = "/guides/3.2/handle-links.md"
-    url = "/guides/3.2/handle-links"
+    pageRef = "/3.2/guides/handle-links.md"
+    url = "/3.2/guides/handle-links"
     weight = "15"
 [[32]]
     name = "Hook a Persistence Layer with a Processor"
     parent = "Guides"
-    pageRef = "/guides/3.2/hook-a-persistence-layer-with-a-processor.md"
-    url = "/guides/3.2/hook-a-persistence-layer-with-a-processor"
+    pageRef = "/3.2/guides/hook-a-persistence-layer-with-a-processor.md"
+    url = "/3.2/guides/hook-a-persistence-layer-with-a-processor"
     weight = "3"
 [[32]]
     name = "How to create a Guide"
     parent = "Guides"
-    pageRef = "/guides/3.2/how-to.md"
-    url = "/guides/3.2/how-to"
+    pageRef = "/3.2/guides/how-to.md"
+    url = "/3.2/guides/how-to"
     weight = "0"
 [[32]]
     name = "Provide the Resource State"
     parent = "Guides"
-    pageRef = "/guides/3.2/provide-the-resource-state.md"
-    url = "/guides/3.2/provide-the-resource-state"
+    pageRef = "/3.2/guides/provide-the-resource-state.md"
+    url = "/3.2/guides/provide-the-resource-state"
     weight = "2"
 [[32]]
     name = "How to return an IRI instead of an object for your resources relations ?"
     parent = "Guides"
-    pageRef = "/guides/3.2/return-the-iri-of-your-resources-relations.md"
-    url = "/guides/3.2/return-the-iri-of-your-resources-relations"
+    pageRef = "/3.2/guides/return-the-iri-of-your-resources-relations.md"
+    url = "/3.2/guides/return-the-iri-of-your-resources-relations"
     weight = "11"
 [[32]]
     name = "Declare a subresource"
     parent = "Guides"
-    pageRef = "/guides/3.2/subresource.md"
-    url = "/guides/3.2/subresource"
+    pageRef = "/3.2/guides/subresource.md"
+    url = "/3.2/guides/subresource"
     weight = "8"
 [[32]]
     name = "Test your API"
     parent = "Guides"
-    pageRef = "/guides/3.2/test-your-api.md"
-    url = "/guides/3.2/test-your-api"
+    pageRef = "/3.2/guides/test-your-api.md"
+    url = "/3.2/guides/test-your-api"
     weight = "7"
 [[32]]
     name = "Validate incoming data"
     parent = "Guides"
-    pageRef = "/guides/3.2/validate-incoming-data.md"
-    url = "/guides/3.2/validate-incoming-data"
+    pageRef = "/3.2/guides/validate-incoming-data.md"
+    url = "/3.2/guides/validate-incoming-data"
     weight = "5"
 [[32]]
     name = "Changelog"
-    url = '/changelog/3.2'
+    url = '/3.2/changelog/'
 [[32]]
     name = "Versions"
 [[32]]
@@ -1488,105 +1488,105 @@
     parent = 'general-information'
 [[31]]
     name = "API Reference"
-    url = '/reference/3.1'
+    url = '/3.1/reference/'
     weight = 3
 [[31]]
     name = "Guides"
-    url = '/guides/3.1'
+    url = '/3.1/guides/'
     weight = 3
 [[31]]
     name = "Create a Custom Doctrine Filter"
     parent = "Guides"
-    pageRef = "/guides/3.1/create-a-custom-doctrine-filter.md"
-    url = "/guides/3.1/create-a-custom-doctrine-filter"
+    pageRef = "/3.1/guides/create-a-custom-doctrine-filter.md"
+    url = "/3.1/guides/create-a-custom-doctrine-filter"
     weight = "10"
 [[31]]
     name = "Custom pagination"
     parent = "Guides"
-    pageRef = "/guides/3.1/custom-pagination.md"
-    url = "/guides/3.1/custom-pagination"
+    pageRef = "/3.1/guides/custom-pagination.md"
+    url = "/3.1/guides/custom-pagination"
     weight = "12"
 [[31]]
     name = "Declare a Resource"
     parent = "Guides"
-    pageRef = "/guides/3.1/declare-a-resource.md"
-    url = "/guides/3.1/declare-a-resource"
+    pageRef = "/3.1/guides/declare-a-resource.md"
+    url = "/3.1/guides/declare-a-resource"
     weight = "1"
 [[31]]
     name = "Delete operation with validation"
     parent = "Guides"
-    pageRef = "/guides/3.1/delete-operation-with-validation.md"
-    url = "/guides/3.1/delete-operation-with-validation"
+    pageRef = "/3.1/guides/delete-operation-with-validation.md"
+    url = "/3.1/guides/delete-operation-with-validation"
     weight = "20"
 [[31]]
     name = "Doctrine entity as API resource"
     parent = "Guides"
-    pageRef = "/guides/3.1/doctrine-entity-as-resource.md"
-    url = "/guides/3.1/doctrine-entity-as-resource"
+    pageRef = "/3.1/guides/doctrine-entity-as-resource.md"
+    url = "/3.1/guides/doctrine-entity-as-resource"
     weight = "4"
 [[31]]
     name = "Doctrine ORM SearchFilter"
     parent = "Guides"
-    pageRef = "/guides/3.1/doctrine-search-filter.md"
-    url = "/guides/3.1/doctrine-search-filter"
+    pageRef = "/3.1/guides/doctrine-search-filter.md"
+    url = "/3.1/guides/doctrine-search-filter"
     weight = "7"
 [[31]]
     name = "Extend OpenAPI Documentation"
     parent = "Guides"
-    pageRef = "/guides/3.1/extend-openapi-documentation.md"
-    url = "/guides/3.1/extend-openapi-documentation"
+    pageRef = "/3.1/guides/extend-openapi-documentation.md"
+    url = "/3.1/guides/extend-openapi-documentation"
     weight = "11"
 [[31]]
     name = "Handle doctrine links"
     parent = "Guides"
-    pageRef = "/guides/3.1/handle-links.md"
-    url = "/guides/3.1/handle-links"
+    pageRef = "/3.1/guides/handle-links.md"
+    url = "/3.1/guides/handle-links"
     weight = "15"
 [[31]]
     name = "Hook a Persistence Layer with a Processor"
     parent = "Guides"
-    pageRef = "/guides/3.1/hook-a-persistence-layer-with-a-processor.md"
-    url = "/guides/3.1/hook-a-persistence-layer-with-a-processor"
+    pageRef = "/3.1/guides/hook-a-persistence-layer-with-a-processor.md"
+    url = "/3.1/guides/hook-a-persistence-layer-with-a-processor"
     weight = "3"
 [[31]]
     name = "How to create a Guide"
     parent = "Guides"
-    pageRef = "/guides/3.1/how-to.md"
-    url = "/guides/3.1/how-to"
+    pageRef = "/3.1/guides/how-to.md"
+    url = "/3.1/guides/how-to"
     weight = "0"
 [[31]]
     name = "Provide the Resource State"
     parent = "Guides"
-    pageRef = "/guides/3.1/provide-the-resource-state.md"
-    url = "/guides/3.1/provide-the-resource-state"
+    pageRef = "/3.1/guides/provide-the-resource-state.md"
+    url = "/3.1/guides/provide-the-resource-state"
     weight = "2"
 [[31]]
     name = "How to return an IRI instead of an object for your resources relations ?"
     parent = "Guides"
-    pageRef = "/guides/3.1/return-the-iri-of-your-resources-relations.md"
-    url = "/guides/3.1/return-the-iri-of-your-resources-relations"
+    pageRef = "/3.1/guides/return-the-iri-of-your-resources-relations.md"
+    url = "/3.1/guides/return-the-iri-of-your-resources-relations"
     weight = "11"
 [[31]]
     name = "Declare a subresource"
     parent = "Guides"
-    pageRef = "/guides/3.1/subresource.md"
-    url = "/guides/3.1/subresource"
+    pageRef = "/3.1/guides/subresource.md"
+    url = "/3.1/guides/subresource"
     weight = "8"
 [[31]]
     name = "Test your API"
     parent = "Guides"
-    pageRef = "/guides/3.1/test-your-api.md"
-    url = "/guides/3.1/test-your-api"
+    pageRef = "/3.1/guides/test-your-api.md"
+    url = "/3.1/guides/test-your-api"
     weight = "7"
 [[31]]
     name = "Validate incoming data"
     parent = "Guides"
-    pageRef = "/guides/3.1/validate-incoming-data.md"
-    url = "/guides/3.1/validate-incoming-data"
+    pageRef = "/3.1/guides/validate-incoming-data.md"
+    url = "/3.1/guides/validate-incoming-data"
     weight = "5"
 [[31]]
     name = "Changelog"
-    url = '/changelog/3.1'
+    url = '/3.1/changelog/'
 [[31]]
     name = "Versions"
 [[31]]
@@ -2310,12 +2310,8 @@
     weight = 7
     parent = 'general-information'
 [[30]]
-    name = "API Reference"
-    url = '/reference/3.0'
-    weight = 3
-[[30]]
     name = "Changelog"
-    url = '/changelog/3.0'
+    url = '/3.0/changelog/'
 [[30]]
     name = "Versions"
 [[30]]
@@ -3032,12 +3028,8 @@
     weight = 7
     parent = 'general-information'
 [[27]]
-    name = "API Reference"
-    url = '/reference/2.7'
-    weight = 3
-[[27]]
     name = "Changelog"
-    url = '/changelog/2.7'
+    url = '/2.7/changelog/'
 [[27]]
     name = "Versions"
 [[27]]
@@ -3733,12 +3725,8 @@
     weight = 7
     parent = 'general-information'
 [[26]]
-    name = "API Reference"
-    url = '/reference/2.6'
-    weight = 3
-[[26]]
     name = "Changelog"
-    url = '/changelog/2.6'
+    url = '/2.6/changelog/'
 [[26]]
     name = "Versions"
 [[26]]
@@ -4385,12 +4373,8 @@
     weight = 7
     parent = 'general-information'
 [[25]]
-    name = "API Reference"
-    url = '/reference/2.5'
-    weight = 3
-[[25]]
     name = "Changelog"
-    url = '/changelog/2.5'
+    url = '/2.5/changelog/'
 [[25]]
     name = "Versions"
 [[25]]
@@ -4939,12 +4923,8 @@
     weight = 5
     parent = 'extra'
 [[24]]
-    name = "API Reference"
-    url = '/reference/2.4'
-    weight = 3
-[[24]]
     name = "Changelog"
-    url = '/changelog/2.4'
+    url = '/2.4/changelog/'
 [[24]]
     name = "Versions"
 [[24]]
@@ -5430,12 +5410,8 @@
     weight = 5
     parent = 'extra'
 [[23]]
-    name = "API Reference"
-    url = '/reference/2.3'
-    weight = 3
-[[23]]
     name = "Changelog"
-    url = '/changelog/2.3'
+    url = '/2.3/changelog/'
 [[23]]
     name = "Versions"
 [[23]]
@@ -5886,12 +5862,8 @@
     weight = 5
     parent = 'extra'
 [[22]]
-    name = "API Reference"
-    url = '/reference/2.2'
-    weight = 3
-[[22]]
     name = "Changelog"
-    url = '/changelog/2.2'
+    url = '/2.2/changelog/'
 [[22]]
     name = "Versions"
 [[22]]
@@ -6293,12 +6265,8 @@
     weight = 4
     parent = 'extra'
 [[21]]
-    name = "API Reference"
-    url = '/reference/2.1'
-    weight = 3
-[[21]]
     name = "Changelog"
-    url = '/changelog/2.1'
+    url = '/2.1/changelog/'
 [[21]]
     name = "Versions"
 [[21]]
@@ -7023,105 +6991,105 @@
     parent = 'general-information'
 [[main]]
     name = "API Reference"
-    url = '/reference/main'
+    url = '/main/reference/'
     weight = 3
 [[main]]
     name = "Guides"
-    url = '/guides/main'
+    url = '/main/guides/'
     weight = 3
 [[main]]
     name = "Create a Custom Doctrine Filter"
     parent = "Guides"
-    pageRef = "/guides/main/create-a-custom-doctrine-filter.md"
-    url = "/guides/main/create-a-custom-doctrine-filter"
+    pageRef = "/main/guides/create-a-custom-doctrine-filter.md"
+    url = "/main/guides/create-a-custom-doctrine-filter"
     weight = "10"
 [[main]]
     name = "Custom pagination"
     parent = "Guides"
-    pageRef = "/guides/main/custom-pagination.md"
-    url = "/guides/main/custom-pagination"
+    pageRef = "/main/guides/custom-pagination.md"
+    url = "/main/guides/custom-pagination"
     weight = "12"
 [[main]]
     name = "Declare a Resource"
     parent = "Guides"
-    pageRef = "/guides/main/declare-a-resource.md"
-    url = "/guides/main/declare-a-resource"
+    pageRef = "/main/guides/declare-a-resource.md"
+    url = "/main/guides/declare-a-resource"
     weight = "1"
 [[main]]
     name = "Delete operation with validation"
     parent = "Guides"
-    pageRef = "/guides/main/delete-operation-with-validation.md"
-    url = "/guides/main/delete-operation-with-validation"
+    pageRef = "/main/guides/delete-operation-with-validation.md"
+    url = "/main/guides/delete-operation-with-validation"
     weight = "20"
 [[main]]
     name = "Doctrine entity as API resource"
     parent = "Guides"
-    pageRef = "/guides/main/doctrine-entity-as-resource.md"
-    url = "/guides/main/doctrine-entity-as-resource"
+    pageRef = "/main/guides/doctrine-entity-as-resource.md"
+    url = "/main/guides/doctrine-entity-as-resource"
     weight = "4"
 [[main]]
     name = "Doctrine ORM SearchFilter"
     parent = "Guides"
-    pageRef = "/guides/main/doctrine-search-filter.md"
-    url = "/guides/main/doctrine-search-filter"
+    pageRef = "/main/guides/doctrine-search-filter.md"
+    url = "/main/guides/doctrine-search-filter"
     weight = "7"
 [[main]]
     name = "Extend OpenAPI Documentation"
     parent = "Guides"
-    pageRef = "/guides/main/extend-openapi-documentation.md"
-    url = "/guides/main/extend-openapi-documentation"
+    pageRef = "/main/guides/extend-openapi-documentation.md"
+    url = "/main/guides/extend-openapi-documentation"
     weight = "11"
 [[main]]
     name = "Handle doctrine links"
     parent = "Guides"
-    pageRef = "/guides/main/handle-links.md"
-    url = "/guides/main/handle-links"
+    pageRef = "/main/guides/handle-links.md"
+    url = "/main/guides/handle-links"
     weight = "15"
 [[main]]
     name = "Hook a Persistence Layer with a Processor"
     parent = "Guides"
-    pageRef = "/guides/main/hook-a-persistence-layer-with-a-processor.md"
-    url = "/guides/main/hook-a-persistence-layer-with-a-processor"
+    pageRef = "/main/guides/hook-a-persistence-layer-with-a-processor.md"
+    url = "/main/guides/hook-a-persistence-layer-with-a-processor"
     weight = "3"
 [[main]]
     name = "How to create a Guide"
     parent = "Guides"
-    pageRef = "/guides/main/how-to.md"
-    url = "/guides/main/how-to"
+    pageRef = "/main/guides/how-to.md"
+    url = "/main/guides/how-to"
     weight = "0"
 [[main]]
     name = "Provide the Resource State"
     parent = "Guides"
-    pageRef = "/guides/main/provide-the-resource-state.md"
-    url = "/guides/main/provide-the-resource-state"
+    pageRef = "/main/guides/provide-the-resource-state.md"
+    url = "/main/guides/provide-the-resource-state"
     weight = "2"
 [[main]]
     name = "How to return an IRI instead of an object for your resources relations ?"
     parent = "Guides"
-    pageRef = "/guides/main/return-the-iri-of-your-resources-relations.md"
-    url = "/guides/main/return-the-iri-of-your-resources-relations"
+    pageRef = "/main/guides/return-the-iri-of-your-resources-relations.md"
+    url = "/main/guides/return-the-iri-of-your-resources-relations"
     weight = "11"
 [[main]]
     name = "Declare a subresource"
     parent = "Guides"
-    pageRef = "/guides/main/subresource.md"
-    url = "/guides/main/subresource"
+    pageRef = "/main/guides/subresource.md"
+    url = "/main/guides/subresource"
     weight = "8"
 [[main]]
     name = "Test your API"
     parent = "Guides"
-    pageRef = "/guides/main/test-your-api.md"
-    url = "/guides/main/test-your-api"
+    pageRef = "/main/guides/test-your-api.md"
+    url = "/main/guides/test-your-api"
     weight = "7"
 [[main]]
     name = "Validate incoming data"
     parent = "Guides"
-    pageRef = "/guides/main/validate-incoming-data.md"
-    url = "/guides/main/validate-incoming-data"
+    pageRef = "/main/guides/validate-incoming-data.md"
+    url = "/main/guides/validate-incoming-data"
     weight = "5"
 [[main]]
     name = "Changelog"
-    url = '/changelog/main'
+    url = '/main/changelog/'
 [[main]]
     name = "Versions"
 [[main]]
