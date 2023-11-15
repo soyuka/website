@@ -2122,6 +2122,10 @@ img {
   pointer-events: none;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -5398,4 +5402,12 @@ kbd.DocSearch-Commands-Key) {
   .-lg\:uppercase {
     text-transform: uppercase;
   }
+}
+
+.\[\&\:has\(\.is-visible\)\]\:block:has(.is-visible) {
+  display: block;
+}
+
+.\[\&\:has\(\.visible\)\]\:block:has(.visible) {
+  display: block;
 }

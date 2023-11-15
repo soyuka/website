@@ -101,13 +101,13 @@
         </div>
         <div class="px-8 pt-4 pb-12">
           {{ range $k, $v := (index $.Site.Data.reference .Page.Section) }}
-            <div class="mb-12 last:mb-0 overflow-x-hidden">
+            <div class="mb-12 last:mb-0 overflow-x-hidden hidden [&:has(.is-visible)]:block">
               <h2 class="text-xl font-semibold text-blue mb-3 mt-0 border-b-px border-b-gray-300 pb-2 overflow-x-hidden whitespace-nowrap text-ellipsis | md:text-3xl ">
                 {{$k}}
               </h2>
               <div class="grid grid-cols-1 gap-x-1 text-gray-700 font-light dark:text-gray-300 | lg:grid-cols-2 | xl:grid-cols-3">
               {{ range $link := $v }}
-                <a href="{{$link.link}}" class="flex flex-row items-center justify-start transition-all py-1 pr-1.5 group !text-current !font-light no-underline | hover:!text-blue hover:pr-0 hover:pl-1.5" data-reference-type="{{ $link.type }}">
+                <a href="{{$link.link}}" class="flex flex-row items-center justify-start transition-all py-1 pr-1.5 group !text-current !font-light no-underline | hover:!text-blue hover:pr-0 hover:pl-1.5 is-visible" data-reference-type="{{ $link.type }}">
                   <div class="w-5 h-5 text-white flex items-center justify-center mr-2 text-xs font-bold dark:text-blue-black {{ $link.color }}">
                       {{ substr $link.type 0 1 }}
                     </div>
@@ -157,13 +157,16 @@
         ;[].slice.call(document.querySelectorAll('[data-reference-type]')).forEach((el) => {
           if (current.innerText === 'All') {
             el.classList.remove('hidden')
+            el.classList.add("is-visible")
             return
           }
 
           el.classList.add('hidden')
+          el.classList.remove('is-visible');
 
           if (el.dataset.referenceType === current.innerText) {
             el.classList.remove('hidden')
+            el.classList.add("is-visible")
           }
         })
 
