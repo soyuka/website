@@ -112,7 +112,7 @@
                       {{ substr $link.type 0 1 }}
                     </div>
                     <span class="flex-1 overflow-x-hidden whitespace-nowrap text-ellipsis">
-                      {{ substr (replace $link.title $k "" 1) 1 }}
+                      {{ $link.title }}
                     </span>
                 </a>
               {{ end }}

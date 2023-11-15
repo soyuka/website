@@ -49,32 +49,32 @@ function getColor(type) {
 let menu = ``
 
 const versions = readFileSync('./docs-versions.txt', {encoding: 'utf8'}).split('\n').map((v) => v.trim()).filter(v => v)
-
 versions.forEach((version) => {
   // API Reference _index generation
   if (existsSync(`./content/${version}/reference/`)) {
     let referenceIndex = ''
-    const titles = readdirSync(`./content/${version}/reference/`)
     const index = {}
 
-    titles.forEach((title) => {
-      if (title === '_index.md') {
-        return
-      }
 
-      const links = globSync(`./content/${version}/reference/${title}/**/*.md`).map((file) => {
+      const links = globSync(`./content/${version}/reference/**/*.md`).filter(file => !file.includes("_index.md")).map((file) => {
         const {data} =  matter(readFileSync(file, {encoding: 'utf8'}).toString())
         const link = `/docs/${file}`.replace('.md', '').replace('/content', '')
+        const base = link.replace(`/docs/${version}/reference/`, '');
         let type = data['php-type']
         if (!type) {
           type = 'Class';
         }
-
-        return {type, title: link.replace(`/docs/${version}/reference/`, ''), link, color: getColor(type)}
+        const parts = base.split("/");
+        const fullLink = {
+          type,
+          title: parts[parts.length - 1],
+          link,
+          color: getColor(type),
+        };
+        const indexLink = parts.slice(0, -1).join("/");
+        if (index[indexLink]) index[indexLink].unshift(fullLink);
+        else index[indexLink] = [fullLink];
       })
-
-      index[title] = links
-    })
 
     writeFileSync(`./content/${version}/reference/_index.md`, `
 ---
