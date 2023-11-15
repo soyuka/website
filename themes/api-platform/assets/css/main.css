@@ -5404,6 +5404,10 @@ kbd.DocSearch-Commands-Key) {
   }
 }
 
+.\[\&\:has\(\.is-search-visible\)\]\:block:has(.is-search-visible) {
+  display: block;
+}
+
 .\[\&\:has\(\.is-visible\)\]\:block:has(.is-visible) {
   display: block;
 }
