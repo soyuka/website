@@ -2267,6 +2267,10 @@ img {
   margin-right: 0.5rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -3174,6 +3178,10 @@ img {
   line-height: 1rem;
 }
 
+.\!font-light {
+  font-weight: 300 !important;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -3208,6 +3216,10 @@ img {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.\!text-current {
+  color: currentColor !important;
 }
 
 .text-blue {
@@ -3247,6 +3259,10 @@ img {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.no-underline {
+  text-decoration-line: none;
 }
 
 .opacity-0 {
@@ -4156,6 +4172,11 @@ kbd.DocSearch-Commands-Key) {
 
   .hover\:pr-0:hover {
     padding-right: 0px;
+  }
+
+  .hover\:\!text-blue:hover {
+    --tw-text-opacity: 1 !important;
+    color: rgb(0 153 161 / var(--tw-text-opacity)) !important;
   }
 
   .hover\:text-blue:hover {
@@ -5447,4 +5468,8 @@ kbd.DocSearch-Commands-Key) {
   .-lg\:uppercase {
     text-transform: uppercase;
   }
+}
+
+.\[\&\:has\(\.is-visible\)\]\:block:has(.is-visible) {
+  display: block;
 }
