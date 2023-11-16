@@ -168,4 +168,3 @@ type: reference
 })
 
 writeFileSync('config/_default/menus.toml', menu)
-
