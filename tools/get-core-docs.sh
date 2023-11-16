@@ -25,6 +25,6 @@ do
 		cd $root/core.temp/docs
 		cp $root/pdg.config.yaml pdg.config.yaml
 		$root/tools/pdg guides $root/content/$version/guides
-		$root/tools/pdg references $root/core.temp/src $root/content/$version/reference/ --base-url /docs/v$version/reference
+		$root/tools/pdg references $root/core.temp/src $root/content/$version/references/ --base-url /docs/$version/references
 	fi
 done
